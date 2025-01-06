@@ -2,6 +2,10 @@
   export let record
   let readMore = false
 
+  /**
+   * @param {any} title
+   * @param {string} format
+   */
   function sendEvent(title, format) {
     if (ga) ga("send", "event", "download", title, format)
   }

@@ -11,6 +11,11 @@ Site: [https://maps.mecknc.gov/openmapping](https://maps.mecknc.gov/openmapping)
 
 Open Mapping is a progressive web app (PWA) consisting of three web pages - index, data, and apps. A configuration file for the data is located at [https://maps.mecknc.gov/opendata/data.json](https://maps.mecknc.gov/opendata/data.json). Configuration files for the apps and projects on the apps page are found in `public/json`.
 
+
+# Improvements & Fixes
+- Added Disclaimer modal popup
+
+
 ### Hat tips
 
 * Icons come from the excellent [phosphor](https://phosphoricons.com/).

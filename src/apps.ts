@@ -1,20 +1,23 @@
-import "./app.postcss"
-import "./lib/registerServiceWorker"
+import "./app.postcss";
+import "./lib/registerServiceWorker";
 
-import AssetList from "./lib/AssetList.svelte"
-import FossProjects from "./lib/FOSSProjects.svelte"
+import AssetList from "./lib/AssetList.svelte";
+import FossProjects from "./lib/FOSSProjects.svelte";
 
+
+
+const appsElement = document.getElementById("apps")!;
 const app = new AssetList({
-  target: document.getElementById("apps"),
+  target: appsElement,
   props: {
     jsonFile: './json/apps.json',
-    showSearch: false
   }
-})
+});
 
+const projectsElement = document.getElementById("apps")!;
 const projects = new FossProjects({
-  target: document.getElementById("projects"),
+  target: projectsElement,
   props: {
-    jsonFile: './json/projects.json'
+    jsonFile: "./json/projects.json",
   }
-})
+});

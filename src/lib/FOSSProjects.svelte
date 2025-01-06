@@ -42,7 +42,7 @@
   <div class="container max-w-4xl mx-auto">
     <ul class="text-lg">
 
-    {#each data.sort((a, b) => {
+    {#each data.sort((/** @type {{ title: number; }} */ a, /** @type {{ title: number; }} */ b) => {
       return a.title < b.title ? -1 : 1
     }) as el}
       <li class="mb-3"><a class="text-primaryTeal font-semibold hover:underline" href="{el.theURL}" target="_blank">{el.title}</a>: {@html el.description}</li>
