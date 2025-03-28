@@ -68,6 +68,12 @@
       and provides it 'as is' without warranty <span class="text-red-900">(NCGS 153A-463)</span>.
     </div>
 
+    <div class="px-5 py-2 text-gray-600 text-justify border border-t-gray-500">
+      <span class="text-red-700 font-bold">* </span>Unless otherwise specified, our data is released under a
+      <a class="text-primaryTeal font-semibold hover:underline" href="https://creativecommons.org/public-domain/cc0/" target="_blank">CCO ("No Rights Reserved")</a> license
+      and our open source software projects are released under a <a class="text-primaryTeal font-semibold hover:underline" href="https://en.wikipedia.org/wiki/MIT_License" target="_blank">MIT software license</a>.
+    </div>
+
     <div class="flex justify-between px-5 py-2 bg-gray-100 border-t border-gray-300">
       <div class="text-blue-800">
         <input type="checkbox" bind:checked={doNotShowAgain} class="accent-zinc-500" /> Don't show again
