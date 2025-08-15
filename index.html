@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Mecklenburg County GIS portal for open data and open source software.">
-  <meta name="author" content="Tobin Bradley">
+  <meta name="author" content="Adem Kurtipek">
   <title>Open Mapping</title>
 
   <!-- preconnect for performance -->
@@ -169,7 +169,6 @@
     <ul class="flex flex-wrap items-center justify-evenly">
       <li><a href="https://gis.mecknc.gov/" target="_blank" class="hover:underline">Mecklenburg County GIS</a> </li>
       <li><a href="https://mecknc.gov/" target="_blank" class="hover:underline">MeckNC.gov</a></li>
-      <li><a href="https://twitter.com/meckgis" target="_blank" class="hover:underline">MeckGIS on Twitter</a></li>
     </ul>
   </footer>
 
@@ -192,18 +191,16 @@
 
   <script type="module" src="/src/main.ts"></script>
 
-  <!--   Google Analytics -->
+  <!--   Start / Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PZ93429CBF"></script>
   <script>
-    (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-    ga('create', 'UA-44715846-1', 'maps.mecknc.gov');
-    ga('send', 'pageview');
+    gtag('config', 'G-PZ93429CBF');
   </script>
+  <!-- End / Google Analytics -->
 </body>
 
 </html>

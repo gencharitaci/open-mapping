@@ -1,47 +1,82 @@
 [
   {
+    "description": "Mecklenburg County Open Data Viewer built with Next.js project bootstrapped with create-next-app.",
+    "title": "Open Data Viewer",
+    "thumbnail": "opendata-viewer.webp",
+    "github": "https://github.com/gencharitaci/opendata-viewer",
+    "github_thumbnail": "github_opendata-viewer.webp",
+    "theURL": "https://gis.mecklenburgcountync.gov/opendata-viewer"
+  },
+  {
     "description": "Aerial viewer built using Leaflet, Svelte, and TailwindCSS.",
     "title": "Time Machine",
     "thumbnail": "timemachine.webp",
-    "github": "https://github.com/tobinbradley/timemachine",
-    "theURL": "https://timemachine.mcmap.org/"
+    "github": "https://github.com/gencharitaci/timemachine",
+    "github_thumbnail": "github_timemachine.webp",
+    "theURL": "https://maps.mecklenburgcountync.gov/timemachine"
   },
   {
     "description": "A dashboard for community data and health. This site is made with Svelte, Tailwind CSS, Maplibre GL, and Vite.",
     "title": "Quality of Life Explorer",
     "thumbnail": "qolexplorer.webp",
-    "github": "https://github.com/tobinbradley/quality-of-life-explorer",
-    "theURL": "http://mcmap.org/qol"
+    "github": "https://github.com/gencharitaci/quality-of-life-explorer",
+    "github_thumbnail": "github_quality-of-life-explorer.webp",
+    "theURL": "http://maps.mecklenburgcountync.gov/qol"
   },
   {
     "description": "A dashboard for community data and health. This site is made with Svelte, Tailwind CSS, Leaflet, and Vite.",
     "title": "Community Compass",
     "thumbnail": "communitycompass.webp",
-    "github": "https://github.com/tobinbradley/community_compass",
-    "theURL": "https://mcmap.org/compass"
+    "github": "https://github.com/gencharitaci/community_compass",
+    "github_thumbnail": "github_ommunity_compass.webp",
+    "theURL": "https://maps.mecklenburgcountync.gov/compass"
   },
   {
     "description": "GeoPortal is a one stop shopping for location information government app. Created with Svelte, Tailwind CSS, MapLibre GJ JS, and Vite.",
     "title": "GeoPortal",
     "thumbnail": "geoportal.webp",
-    "github": "https://github.com/tobinbradley/Mecklenburg-County-GeoPortal",
-    "theURL": "https://mcmap.org/geoportal"
+    "github": "https://github.com/gencharitaci/Mecklenburg-County-GeoPortal",
+    "github_thumbnail": "github_Mecklenburg-County-GeoPortal.webp",
+    "theURL": "https://maps.mecklenburgcountync.gov/geoportal"
+  },
+    {
+    "description": "Mecklenburg County open data and maps hub, built with Svelte and TailwindCSS. The development and build environment is Vite.",
+    "title": "Open Mapping",
+    "thumbnail": "openmapping.webp",
+    "github": "https://github.com/gencharitaci/open-mapping",
+    "github_thumbnail": "github_open-mapping.webp",
+    "theURL": "https://maps.mecklenburgcountync.gov/openmapping"
   },
   {
-    "description": "A simple image viewer made with Leaflet, Svelte and Tailwind.",
-    "title": "Historic Tax Maps",
-    "thumbnail": "historictaxmaps.webp",
-    "github": "https://github.com/tobinbradley/historictaxmaps",
-    "theURL": "https://maps.mecknc.gov/historictaxmaps/"
+    "description": "The archive is a simple historic scans viewer, built with Leaflet, Svelte and Tailwind.",
+    "title": "The Archive",
+    "thumbnail": "thearchive.webp",
+    "github": "https://github.com/gencharitaci/thearchive",
+    "github_thumbnail": "github_thearchive.webp",
+    "theURL": "https://gis.mecklenburgcountync.gov/thearchive"
   },
   {
     "description": "The Dirt-Simple PostGIS HTTP API, or dirt, exposes PostGIS functionality to your applications over HTTP. Build using Fastify.",
     "title": "Dirt-Simple PostGIS HTTP API",
-    "github": "https://github.com/tobinbradley/dirt-simple-postgis-http-api"
+    "thumbnail": null,
+    "github": "https://github.com/gencharitaci/dirt-simple-postgis-http-api",
+    "github_thumbnail": "github_dirt-simple-postgis-http-api.webp",
+    "theURL": "https://github.com/gencharitaci/dirt-simple-postgis-http-api"
   },
   {
     "description": "Mecklenburg County made this tool to make moving spatial data into Postgres easy to script and schedule. It does that by leveraging the extraordinary ogr-fdw and other foreign data wrappers.",
     "title": "NodeJS ETL tooling for Postgres/PostGIS",
-    "github": "https://github.com/tobinbradley/historictaxmaps"
+    "thumbnail": null,
+    "github": "https://github.com/gencharitaci/etl-with-ogr_fdw",
+    "github_thumbnail": "github_etl-with-ogr_fdw.webp",
+    "theURL": "https://github.com/gencharitaci/etl-with-ogr_fdw"
+  },
+  {
+    "description": "A simple tiles server for MBTiles files. It can serve image and vector tiles, and multiple MBTiles files can be served.",
+    "title": "MBTiles Server",
+    "thumbnail": null,
+    "github": "https://github.com/gencharitaci/mbtiles-server",
+    "github_thumbnail": "github_mbtiles-server.webp",
+    "theURL": "https://github.com/gencharitaci/mbtiles-server"
   }
 ]

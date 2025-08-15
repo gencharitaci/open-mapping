@@ -44,7 +44,7 @@
   </head>
   <body class="flex flex-col leading-normal tracking-normal min-h-screen">
     <!--Nav-->
-    <nav id="header" class="w-full z-30 top-0 gradient drop-shadow-md">
+    <nav id="header" class="sticky w-full z-30 top-0 gradient drop-shadow-md">
       <div
         class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2"
       >
@@ -122,14 +122,6 @@
             >MeckNC.gov</a
           >
         </li>
-        <li>
-          <a
-            href="https://twitter.com/meckgis"
-            target="_blank"
-            class="hover:underline"
-            >MeckGIS on Twitter</a
-          >
-        </li>
       </ul>
     </footer>
 
@@ -154,30 +146,20 @@
 
     <script type="module" src="/src/data.ts"></script>
 
-    <!--   Google Analytics -->
+    <!--   Start / Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PZ93429CBF"
+    ></script>
     <script>
-      (function (i, s, o, g, r, a, m) {
-        i["GoogleAnalyticsObject"] = r;
-        (i[r] =
-          i[r] ||
-          function () {
-            (i[r].q = i[r].q || []).push(arguments);
-          }),
-          (i[r].l = 1 * new Date());
-        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m);
-      })(
-        window,
-        document,
-        "script",
-        "https://www.google-analytics.com/analytics.js",
-        "ga"
-      );
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      ga("create", "UA-44715846-1", "maps.mecknc.gov");
-      ga("send", "pageview");
+      gtag("config", "G-PZ93429CBF");
     </script>
+    <!-- End / Google Analytics -->
   </body>
 </html>

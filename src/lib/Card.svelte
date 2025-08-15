@@ -1,110 +1,202 @@
 <script>
-  export let record
-  let readMore = false
+  export let record;
+  let readMore = false;
 
   /**
    * @param {any} title
    * @param {string} format
    */
   function sendEvent(title, format) {
-    if (ga) ga("send", "event", "download", title, format)
+    if (ga) ga("send", "event", "download", title, format);
   }
 </script>
 
-<style>
-  .btn {
-    @apply mt-1 select-none rounded-lg bg-primaryTeal hover:bg-teal-800 stroke-white fill-white py-1 px-2 text-center align-middle text-xs font-bold text-white shadow-md shadow-teal-500/20 transition-all hover:shadow-lg hover:shadow-teal-800/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none duration-300;
-  }
-  a {
-    @apply inline-block;
-  }
-  svg {
-    @apply block mx-auto;
-  }
-  .card {
-    min-height: 320px;
-  }
-</style>
+<!-- <div
+    class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md 
+    bg-clip-border rounded-xl w-96"
+  > -->
+<div
+  class="relative bg-white border text-gray-700 shadow-md bg-clip-border rounded-xl w-96 border-gray-200 flex flex-col justify-between h-full"
+>
+  {#if record.thumbnail}
+    <div
+      class="shadow-xl border relative h-48 mx-4 -mt-6 overflow-hidden text-white bg-clip-border rounded-lg bg-blue-gray-500 shadow-blue-gray-500/40 bg-blue-gray-500 shadow-primaryTeal/40 gradient"
+    >
+      <img
+        src="https://maps.mecklenburgcountync.gov/opendata/thumbnails/{record.thumbnail}"
+        alt={record.description}
+        class="w-full h-full"
+      />
+    </div>
+  {:else if record.github_thumbnail}
+    <div
+      class="relative h-48 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40 bg-blue-gray-500 shadow-primaryTeal/40 gradient"
+    >
+      <img
+        src="https://maps.mecklenburgcountync.gov/opendata/thumbnails/{record.github_thumbnail}"
+        alt={record.description}
+        class="w-full h-full"
+      />
+    </div>
+  {:else if record.ags}
+    <div
+      class="relative h-48 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40 bg-blue-gray-500 shadow-primaryTeal/40 gradient"
+    >
+      <img
+        src={record.ags.substring(0, record.ags.length - 1) + "info/thumbnail"}
+        alt={record.description}
+        class="w-full h-full"
+      />
+    </div>
+  {:else}
+        <div
+      class="relative h-48 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40 bg-blue-gray-500 shadow-primaryTeal/40 gradient"
+    >
+      <img
+        src="img/placeholder-300x200.png"
+        alt={record.description}
+        class="w-full h-full"
+      />
+    </div>
+  {/if}
 
-<div>
   <div
-    class="card relative flex flex-col rounded-xl border-2 bg-white bg-clip-border text-gray-700 drop-shadow-lg"
+    class="duration-100 ease-out outline-transparent group flex flex-col gap-4 w-full"
   >
-
-    <!-- thumbnail - priorty to data.json thumbnail -->
-    {#if record.thumbnail}
+    <div class="flex gap-x-2 gap-y-1 p-4 flex-col items-start flex-wrap">
       <div
-        class="relative mx-4 -mt-4 h-44 overflow-hidden rounded-lg bg-blue-gray-500 bg-clip-border shadow-md shadow-primaryTeal/40 gradient"
+        class="flex gap-x-2 gap-y-1 flex-row items-center place-content-start flex-wrap w-full justify-between"
       >
-        <img src="https://maps.mecknc.gov/opendata/thumbnails/{record.thumbnail}" alt="thumbnail" class="w-full h-full" />
+        <div
+          class="block font-sans text-medium antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+        >
+          {record.title}
+        </div>
       </div>
-    {:else if record.ags}
-      <div
-        class="relative mx-4 -mt-4 h-44 overflow-hidden rounded-lg bg-blue-gray-500 bg-clip-border shadow-md shadow-primaryTeal/40 gradient"
-      >
-        <img src="{record.ags.substring(0, record.ags.length - 1) + 'info/thumbnail'}" alt="thumbnail" class="w-full h-full" />
-      </div>
-    {/if}
 
-
-    <div class="p-6 grow">
-      <h3
-        class="text-center text-xl mb-1 font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased"
-      >
-        {record.title}
-      </h3>
-
-      {#if record.size || record.updated}
-        <div class="text-center text-sm">
-          {#if record.updated}
-              {record.updated}
+      {#if record.description}
+        <p class="text-base text-justify text-muted-foreground mb-1">
+          {#if record.description.length >= 353}
+            {#if readMore}
+              {@html record.description}
+              <button
+                class="text-primaryTeal font-semibold ml-1 hover:underline"
+                on:click={() => (readMore = !readMore)}>...read less</button
+              >
+            {:else}
+              {@html record.description.substring(0, 354)}<button
+                class="text-primaryTeal font-semibold ml-1 hover:underline"
+                on:click={() => (readMore = !readMore)}>...read more</button
+              >
+            {/if}
+          {:else}
+            {@html record.description}
           {/if}
-          {#if record.updated && record.size}
-            &nbsp;  &#8226; &nbsp;
+        </p>
+      {/if}
+
+      {#if record.updated || record.size || record.source}
+        <ul class="w-full text-sm">
+          {#if record.updated}
+            <li class="flex items-center gap-3 py-1">
+              <p
+                class="flex items-center min-w-0 gap-1.5 text-secondary-foreground"
+              >
+                <!-- SVG Source: https://creatorsrepo.com/icons -->
+                <svg
+                  fill="#2197DE"
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="mdi-update"
+                  viewBox="0 0 24 24"
+                  height="24"
+                  width="24"
+                  ><path
+                    d="M21,10.12H14.22L16.96,7.3C14.23,4.6 9.81,4.5 7.08,7.2C4.35,9.91 4.35,14.28 7.08,17C9.81,19.7 14.23,19.7 16.96,17C18.32,15.65 19,14.08 19,12.1H21C21,14.08 20.12,16.65 18.36,18.39C14.85,21.87 9.15,21.87 5.64,18.39C2.14,14.92 2.11,9.28 5.62,5.81C9.13,2.34 14.76,2.34 18.27,5.81L21,3V10.12M12.5,8V12.25L16,14.33L15.28,15.54L11,13V8H12.5Z"
+                  /></svg
+                >
+                <span class="flex-1 truncate">Updated</span>
+              </p>
+              <hr class="min-w-2 dashed flex-1" />
+              <span class="shrink-0 font-medium tabular-nums"
+                >{record.updated}</span
+              >
+            </li>
           {/if}
           {#if record.size}
-              {record.size}
+            <li class="flex items-center gap-3 py-1">
+              <p
+                class="flex items-center min-w-0 gap-1.5 text-secondary-foreground"
+              >
+                <!-- SVG Source: https://creatorsrepo.com/icons -->
+                <svg
+                  fill="#4DB6AC"
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="mdi-file-search"
+                  viewBox="0 0 24 24"
+                  height="24"
+                  width="24"
+                  ><path
+                    d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H13C12.59,21.75 12.2,21.44 11.86,21.1C9.22,18.67 9.05,14.56 11.5,11.92C13.69,9.5 17.33,9.13 20,11V8L14,2M13,9V3.5L18.5,9H13M20.31,18.9C21.64,16.79 21,14 18.91,12.68C16.8,11.35 14,12 12.69,14.08C11.35,16.19 12,18.97 14.09,20.3C15.55,21.23 17.41,21.23 18.88,20.32L22,23.39L23.39,22L20.31,18.9M16.5,19A2.5,2.5 0 0,1 14,16.5A2.5,2.5 0 0,1 16.5,14A2.5,2.5 0 0,1 19,16.5A2.5,2.5 0 0,1 16.5,19Z"
+                  /></svg
+                >
+                <span class="flex-1 truncate">Size</span>
+              </p>
+              <hr class="min-w-2 dashed flex-1" />
+              <span class="shrink-0 font-medium tabular-nums"
+                >{record.size}</span
+              >
+            </li>
           {/if}
-        </div>
-      {/if}
-
-      {#if record.source}
-      <div class="text-center text-sm px-2">
-        Source: {record.source}
-      </div>
-      {/if}
-
-
-      <p
-        class="description text-lg mt-4 leading-6 text-inherit antialiased"
-      >
-        {#if record.description.length >= 353}
-          {#if readMore}
-            {@html record.description}
-            <button
-              class="text-primaryTeal font-semibold ml-1 hover:underline"
-              on:click={() => (readMore = !readMore)}>...read less</button
-            >
-          {:else}
-            {@html record.description.substring(0, 354)}<button
-              class="text-primaryTeal font-semibold ml-1 hover:underline"
-              on:click={() => (readMore = !readMore)}>...read more</button
-            >
+          {#if record.source}
+            <li class="flex items-center gap-3 py-1">
+              <p
+                class="flex items-center min-w-0 gap-1.5 text-secondary-foreground"
+              >
+                <!-- SVG Source: https://creatorsrepo.com/icons -->
+                <svg
+                  fill="#F4A261"
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="mdi-source-branch"
+                  viewBox="0 0 24 24"
+                  height="24"
+                  width="24"
+                  ><path
+                    d="M13,14C9.64,14 8.54,15.35 8.18,16.24C9.25,16.7 10,17.76 10,19A3,3 0 0,1 7,22A3,3 0 0,1 4,19C4,17.69 4.83,16.58 6,16.17V7.83C4.83,7.42 4,6.31 4,5A3,3 0 0,1 7,2A3,3 0 0,1 10,5C10,6.31 9.17,7.42 8,7.83V13.12C8.88,12.47 10.16,12 12,12C14.67,12 15.56,10.66 15.85,9.77C14.77,9.32 14,8.25 14,7A3,3 0 0,1 17,4A3,3 0 0,1 20,7C20,8.34 19.12,9.5 17.91,9.86C17.65,11.29 16.68,14 13,14M7,18A1,1 0 0,0 6,19A1,1 0 0,0 7,20A1,1 0 0,0 8,19A1,1 0 0,0 7,18M7,4A1,1 0 0,0 6,5A1,1 0 0,0 7,6A1,1 0 0,0 8,5A1,1 0 0,0 7,4M17,6A1,1 0 0,0 16,7A1,1 0 0,0 17,8A1,1 0 0,0 18,7A1,1 0 0,0 17,6Z"
+                  /></svg
+                >
+                <span class="flex-1 truncate">Source</span>
+              </p>
+              <hr class="min-w-2 dashed flex-1" />
+              <span class="shrink-0 font-medium tabular-nums"
+                >{record.source}</span
+              >
+            </li>
           {/if}
-        {:else}
-          {@html record.description}
-        {/if}
-      </p>
+        </ul>
+      {/if}
+    </div>
+  </div>
+
+
+  <!-- Icon Links -->
+  <div class="flex w-full flex-wrap justify-end gap-2 px-0 pt-1 pb-3">
+    <!-- Divider with title -->
+    <div
+      class="relative flex w-full flex-wrap py-0 justify-end gap-2 items-center"
+    >
+      <div class="flex-grow border-t border-primaryTeal"></div>
+      <span class="flex-shrink mx-4 text-primaryTeal">View / Download</span>
+      <div class="flex-grow border-t border-primaryTeal"></div>
     </div>
 
-    <div class="p-6 pt-0 text-right">
+    <div class="px-3">
       <!-- BYOD -->
       {#if record.byod}
         <a
-          href="https://maps.mecknc.gov/opendata/{record.byod}"
-          on:click={() => sendEvent(record.title, 'BYOD')}
-          class="btn"
+          href="https://maps.mecklenburgcountyncnc.gov/opendata/{record.byod}"
+          on:click={() => sendEvent(record.title, "BYOD")}
           target="_blank"
+          class="btn border duration-100 ease-out outline-transparent not-disabled:cursor-pointer hover:not-disabled:outline-[3px] hover:not-disabled:outline-border/50 hover:not-disabled:border-outline focus-visible:outline-[3px] focus-visible:outline-border/50 focus-visible:border-outline group/button relative inline-flex items-center justify-center font-medium text-[0.8125rem] text-start leading-tight rounded-md overflow-clip hover:z-10 hover:border-transparent disabled:opacity-60 disabled:pointer-events-none border-border! bg-background text-secondary-foreground hover:bg-card hover:border-ring! px-3 py-2 gap-[0.75ch] mt-1 self-start"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -115,17 +207,30 @@
               d="M224,64H32A16,16,0,0,0,16,80v96a16,16,0,0,0,16,16H224a16,16,0,0,0,16-16V80A16,16,0,0,0,224,64Zm0,112H32V80H224v96Zm-24-48a12,12,0,1,1-12-12A12,12,0,0,1,200,128Z"
             /></svg
           >
-          BYO Drive</a
-        >
+          <span class="flex-1 truncate only:text-center has-[div]:contents">
+            BYO Drive
+          </span>
+        </a>
       {/if}
 
       <!-- pdf -->
       {#if record.pdf}
         <a
-          href="https://maps.mecknc.gov/opendata/{record.pdf}"
-          class="btn" target="_blank">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256"><path d="M213.66,82.34l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V88A8,8,0,0,0,213.66,82.34ZM160,51.31,188.69,80H160ZM200,216H56V40h88V88a8,8,0,0,0,8,8h48V216Z"></path></svg>
-          PDF</a>
+          href="https://maps.mecklenburgcountyncnc.gov/opendata/{record.pdf}"
+          target="_blank"
+          class="btn border duration-100 ease-out outline-transparent not-disabled:cursor-pointer hover:not-disabled:outline-[3px] hover:not-disabled:outline-border/50 hover:not-disabled:border-outline focus-visible:outline-[3px] focus-visible:outline-border/50 focus-visible:border-outline group/button relative inline-flex items-center justify-center font-medium text-[0.8125rem] text-start leading-tight rounded-md overflow-clip hover:z-10 hover:border-transparent disabled:opacity-60 disabled:pointer-events-none border-border! bg-background text-secondary-foreground hover:bg-card hover:border-ring! px-3 py-2 gap-[0.75ch] mt-1 self-start"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 256 256"
+            ><path
+              d="M213.66,82.34l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V88A8,8,0,0,0,213.66,82.34ZM160,51.31,188.69,80H160ZM200,216H56V40h88V88a8,8,0,0,0,8,8h48V216Z"
+            ></path></svg
+          >
+          PDF</a
+        >
       {/if}
 
       <!-- {#if record.type === 'call'}
@@ -139,7 +244,7 @@
       {#if record.geojson}
         <a
           href="http://maps.co.mecklenburg.nc.us/geoserver/postgis/ows?service=WFS&version=1.0.0&request=GetFeature&outputFormat=application%2Fjson&srsName=EPSG:4326&typeName=postgis:{record.geojson}"
-          on:click={() => sendEvent(record.title, 'geojson')}
+          on:click={() => sendEvent(record.title, "geojson")}
           class="btn"
           target="_blank"
         >
@@ -159,8 +264,8 @@
       <!-- Shapefile -->
       {#if record.shapefile}
         <a
-          href="https://maps.mecknc.gov/opendata/{record.shapefile}"
-          on:click={() => sendEvent(record.title, 'shapefile')}
+          href="https://maps.mecklenburgcountyncnc.gov/opendata/{record.shapefile}"
+          on:click={() => sendEvent(record.title, "shapefile")}
           class="btn"
           target="_blank"
           title="Esri Shapefile"
@@ -181,8 +286,8 @@
       <!-- CAD File -->
       {#if record.cadfile}
         <a
-          href="https://maps.mecknc.gov/opendata/{record.cadfile}"
-          on:click={() => sendEvent(record.title, 'cad')}
+          href="https://maps.mecklenburgcountyncnc.gov/opendata/{record.cadfile}"
+          on:click={() => sendEvent(record.title, "cad")}
           class="btn"
           target="_blank"
         >
@@ -204,7 +309,7 @@
       {#if record.theURL}
         <a
           href={record.theURL}
-          on:click={() => sendEvent(record.title, 'link')}
+          on:click={() => sendEvent(record.title, "link")}
           class="btn"
           target="_blank"
         >
@@ -224,8 +329,8 @@
       <!-- Raster -->
       {#if record.raster}
         <a
-          href="https://maps.mecknc.gov/opendata/{record.raster}"
-          on:click={() => sendEvent(record.title, 'raster')}
+          href="https://maps.mecklenburgcountyncnc.gov/opendata/{record.raster}"
+          on:click={() => sendEvent(record.title, "raster")}
           class="btn"
           target="_blank"
         >
@@ -245,8 +350,8 @@
       <!-- dbf -->
       {#if record.dbf}
         <a
-          on:click={() => sendEvent(record.title, 'dbf')}
-          href="https://maps.mecknc.gov/opendata/{record.dbf}"
+          on:click={() => sendEvent(record.title, "dbf")}
+          href="https://maps.mecklenburgcountyncnc.gov/opendata/{record.dbf}"
           class="btn"
           target="_blank"
         >
@@ -266,8 +371,8 @@
       <!-- textfile -->
       {#if record.textfile}
         <a
-          on:click={() => sendEvent(record.title, 'text')}
-          href="https://maps.mecknc.gov/opendata/{record.textfile}"
+          on:click={() => sendEvent(record.title, "text")}
+          href="https://maps.mecklenburgcountyncnc.gov/opendata/{record.textfile}"
           class="btn"
           target="_blank"
         >
@@ -287,8 +392,8 @@
       <!-- csv -->
       {#if record.csv}
         <a
-          on:click={() => sendEvent(record.title, 'csv')}
-          href="https://maps.mecknc.gov/opendata/{record.csv}"
+          on:click={() => sendEvent(record.title, "csv")}
+          href="https://maps.mecklenburgcountyncnc.gov/opendata/{record.csv}"
           class="btn"
           target="_blank"
         >
@@ -307,10 +412,10 @@
       <!-- github -->
       {#if record.github}
         <a
-          href="{record.github}"
+          href={record.github}
           class="btn"
           target="_blank"
-          on:click={() => sendEvent(record.title, 'Github')}
+          on:click={() => sendEvent(record.title, "Github")}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -328,30 +433,45 @@
       <!-- Esri REST Service -->
       {#if record.ags}
         <a
-          href="{record.ags}"
+          href={record.ags}
           class="btn"
           target="_blank"
-          on:click={() => sendEvent(record.title, 'AGS REST')}
+          on:click={() => sendEvent(record.title, "AGS REST")}
         >
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"  viewBox="0 0 256 256"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Zm109.94-52.79a8,8,0,0,0-3.89-5.4l-29.83-17-.12-33.62a8,8,0,0,0-2.83-6.08,111.91,111.91,0,0,0-36.72-20.67,8,8,0,0,0-6.46.59L128,41.85,97.88,25a8,8,0,0,0-6.47-.6A112.1,112.1,0,0,0,54.73,45.15a8,8,0,0,0-2.83,6.07l-.15,33.65-29.83,17a8,8,0,0,0-3.89,5.4,106.47,106.47,0,0,0,0,41.56,8,8,0,0,0,3.89,5.4l29.83,17,.12,33.62a8,8,0,0,0,2.83,6.08,111.91,111.91,0,0,0,36.72,20.67,8,8,0,0,0,6.46-.59L128,214.15,158.12,231a7.91,7.91,0,0,0,3.9,1,8.09,8.09,0,0,0,2.57-.42,112.1,112.1,0,0,0,36.68-20.73,8,8,0,0,0,2.83-6.07l.15-33.65,29.83-17a8,8,0,0,0,3.89-5.4A106.47,106.47,0,0,0,237.94,107.21Zm-15,34.91-28.57,16.25a8,8,0,0,0-3,3c-.58,1-1.19,2.06-1.81,3.06a7.94,7.94,0,0,0-1.22,4.21l-.15,32.25a95.89,95.89,0,0,1-25.37,14.3L134,199.13a8,8,0,0,0-3.91-1h-.19c-1.21,0-2.43,0-3.64,0a8.08,8.08,0,0,0-4.1,1l-28.84,16.1A96,96,0,0,1,67.88,201l-.11-32.2a8,8,0,0,0-1.22-4.22c-.62-1-1.23-2-1.8-3.06a8.09,8.09,0,0,0-3-3.06l-28.6-16.29a90.49,90.49,0,0,1,0-28.26L61.67,97.63a8,8,0,0,0,3-3c.58-1,1.19-2.06,1.81-3.06a7.94,7.94,0,0,0,1.22-4.21l.15-32.25a95.89,95.89,0,0,1,25.37-14.3L122,56.87a8,8,0,0,0,4.1,1c1.21,0,2.43,0,3.64,0a8.08,8.08,0,0,0,4.1-1l28.84-16.1A96,96,0,0,1,188.12,55l.11,32.2a8,8,0,0,0,1.22,4.22c.62,1,1.23,2,1.8,3.06a8.09,8.09,0,0,0,3,3.06l28.6,16.29A90.49,90.49,0,0,1,222.9,142.12Z"></path></svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 256 256"
+            ><path
+              d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Zm109.94-52.79a8,8,0,0,0-3.89-5.4l-29.83-17-.12-33.62a8,8,0,0,0-2.83-6.08,111.91,111.91,0,0,0-36.72-20.67,8,8,0,0,0-6.46.59L128,41.85,97.88,25a8,8,0,0,0-6.47-.6A112.1,112.1,0,0,0,54.73,45.15a8,8,0,0,0-2.83,6.07l-.15,33.65-29.83,17a8,8,0,0,0-3.89,5.4,106.47,106.47,0,0,0,0,41.56,8,8,0,0,0,3.89,5.4l29.83,17,.12,33.62a8,8,0,0,0,2.83,6.08,111.91,111.91,0,0,0,36.72,20.67,8,8,0,0,0,6.46-.59L128,214.15,158.12,231a7.91,7.91,0,0,0,3.9,1,8.09,8.09,0,0,0,2.57-.42,112.1,112.1,0,0,0,36.68-20.73,8,8,0,0,0,2.83-6.07l.15-33.65,29.83-17a8,8,0,0,0,3.89-5.4A106.47,106.47,0,0,0,237.94,107.21Zm-15,34.91-28.57,16.25a8,8,0,0,0-3,3c-.58,1-1.19,2.06-1.81,3.06a7.94,7.94,0,0,0-1.22,4.21l-.15,32.25a95.89,95.89,0,0,1-25.37,14.3L134,199.13a8,8,0,0,0-3.91-1h-.19c-1.21,0-2.43,0-3.64,0a8.08,8.08,0,0,0-4.1,1l-28.84,16.1A96,96,0,0,1,67.88,201l-.11-32.2a8,8,0,0,0-1.22-4.22c-.62-1-1.23-2-1.8-3.06a8.09,8.09,0,0,0-3-3.06l-28.6-16.29a90.49,90.49,0,0,1,0-28.26L61.67,97.63a8,8,0,0,0,3-3c.58-1,1.19-2.06,1.81-3.06a7.94,7.94,0,0,0,1.22-4.21l.15-32.25a95.89,95.89,0,0,1,25.37-14.3L122,56.87a8,8,0,0,0,4.1,1c1.21,0,2.43,0,3.64,0a8.08,8.08,0,0,0,4.1-1l28.84-16.1A96,96,0,0,1,188.12,55l.11,32.2a8,8,0,0,0,1.22,4.22c.62,1,1.23,2,1.8,3.06a8.09,8.09,0,0,0,3,3.06l28.6,16.29A90.49,90.49,0,0,1,222.9,142.12Z"
+            ></path></svg
+          >
           REST
         </a>
         <a
           href="http://www.arcgis.com/apps/mapviewer/index.html?url={record.ags}"
           class="btn"
           target="_blank"
-          on:click={() => sendEvent(record.title, 'AGS View')}
+          on:click={() => sendEvent(record.title, "AGS View")}
         >
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"  viewBox="0 0 256 256"><path d="M247.31,124.76c-.35-.79-8.82-19.58-27.65-38.41C194.57,61.26,162.88,48,128,48S61.43,61.26,36.34,86.35C17.51,105.18,9,124,8.69,124.76a8,8,0,0,0,0,6.5c.35.79,8.82,19.57,27.65,38.4C61.43,194.74,93.12,208,128,208s66.57-13.26,91.66-38.34c18.83-18.83,27.3-37.61,27.65-38.4A8,8,0,0,0,247.31,124.76ZM128,192c-30.78,0-57.67-11.19-79.93-33.25A133.47,133.47,0,0,1,25,128,133.33,133.33,0,0,1,48.07,97.25C70.33,75.19,97.22,64,128,64s57.67,11.19,79.93,33.25A133.46,133.46,0,0,1,231.05,128C223.84,141.46,192.43,192,128,192Zm0-112a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Z"></path></svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 256 256"
+            ><path
+              d="M247.31,124.76c-.35-.79-8.82-19.58-27.65-38.41C194.57,61.26,162.88,48,128,48S61.43,61.26,36.34,86.35C17.51,105.18,9,124,8.69,124.76a8,8,0,0,0,0,6.5c.35.79,8.82,19.57,27.65,38.4C61.43,194.74,93.12,208,128,208s66.57-13.26,91.66-38.34c18.83-18.83,27.3-37.61,27.65-38.4A8,8,0,0,0,247.31,124.76ZM128,192c-30.78,0-57.67-11.19-79.93-33.25A133.47,133.47,0,0,1,25,128,133.33,133.33,0,0,1,48.07,97.25C70.33,75.19,97.22,64,128,64s57.67,11.19,79.93,33.25A133.46,133.46,0,0,1,231.05,128C223.84,141.46,192.43,192,128,192Zm0-112a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Z"
+            ></path></svg
+          >
           View
         </a>
-
       {/if}
 
       <!-- metadata     -->
       {#if record.metadata}
         <a
-          href="https://maps.mecknc.gov/opendata/metadata/{record.metadata}"
+          href="https://maps.mecklenburgcountyncnc.gov/opendata/metadata/{record.metadata}"
           class="btn"
           target="_blank"
           title="Metadata"
@@ -374,4 +494,17 @@
           </button> -->
     </div>
   </div>
+  
 </div>
+
+<style>
+  .btn {
+    @apply mt-1 select-none rounded-lg bg-primaryTeal hover:bg-teal-800 stroke-white fill-white py-1 px-2 text-center align-middle text-xs font-bold text-white shadow-md shadow-teal-500/20 transition-all hover:shadow-lg hover:shadow-teal-800/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none duration-300;
+  }
+  a {
+    @apply inline-block;
+  }
+  svg {
+    @apply block mx-auto;
+  }
+</style>

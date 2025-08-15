@@ -3,13 +3,13 @@
 
 Mecklenburg County open data and maps hub, built with [Svelte](https://svelte.dev/) and [TailwindCSS](https://tailwindcss.com/). The development and build environment is [Vite](https://vitejs.dev/).
 
-Site: [https://maps.mecknc.gov/openmapping](https://maps.mecknc.gov/openmapping)
+Site: [https://maps.mecklenburgcountync.gov/openmapping](https://maps.mecklenburgcountync.gov/openmapping)
 
 ## Architecture
 
 ![Architecture](./Architecture.png)
 
-Open Mapping is a progressive web app (PWA) consisting of three web pages - index, data, and apps. A configuration file for the data is located at [https://maps.mecknc.gov/opendata/data.json](https://maps.mecknc.gov/opendata/data.json). Configuration files for the apps and projects on the apps page are found in `public/json`.
+Open Mapping is a progressive web app (PWA) consisting of three web pages - index, data, and apps. A configuration file for the data is located at [https://maps.mecklenburgcountync.gov/opendata/data.json](https://maps.mecklenburgcountync.gov/opendata/data.json). Configuration files for the apps and projects on the apps page are found in `public/json`.
 
 
 # Improvements & Fixes 
@@ -28,7 +28,7 @@ Open Mapping is a progressive web app (PWA) consisting of three web pages - inde
 
 ### Clone the project
 ```bash
-git clone https://github.com/tobinbradley/open-mapping.git
+git clone https://github.com/gencharitaci/open-mapping.git
 ```
 
 ### Install dependencies

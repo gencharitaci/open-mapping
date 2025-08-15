@@ -8,6 +8,6 @@ const appElement = document.getElementById("app")!;
 const app = new AssetList({
   target: appElement,
   props: {
-    jsonFile: "https://maps.mecknc.gov/opendata/data.json"
+    jsonFile: "https://maps.mecklenburgcountync.gov/opendata/data.json"
   }
 });
