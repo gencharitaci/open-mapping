@@ -14,6 +14,7 @@ Open Mapping is a progressive web app (PWA) consisting of three web pages - inde
 
 # Improvements & Fixes 
 - Added Disclaimer modal popup
+- Updated App and Data Card styles in pages. 
 
 
 ### Hat tips
