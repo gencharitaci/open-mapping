@@ -193,7 +193,7 @@
       <!-- BYOD -->
       {#if record.byod}
         <a
-          href="https://maps.mecklenburgcountyncnc.gov/opendata/{record.byod}"
+          href="https://maps.mecklenburgcountync.gov/opendata/{record.byod}"
           on:click={() => sendEvent(record.title, "BYOD")}
           target="_blank"
           class="btn border duration-100 ease-out outline-transparent not-disabled:cursor-pointer hover:not-disabled:outline-[3px] hover:not-disabled:outline-border/50 hover:not-disabled:border-outline focus-visible:outline-[3px] focus-visible:outline-border/50 focus-visible:border-outline group/button relative inline-flex items-center justify-center font-medium text-[0.8125rem] text-start leading-tight rounded-md overflow-clip hover:z-10 hover:border-transparent disabled:opacity-60 disabled:pointer-events-none border-border! bg-background text-secondary-foreground hover:bg-card hover:border-ring! px-3 py-2 gap-[0.75ch] mt-1 self-start"
@@ -216,7 +216,7 @@
       <!-- pdf -->
       {#if record.pdf}
         <a
-          href="https://maps.mecklenburgcountyncnc.gov/opendata/{record.pdf}"
+          href="https://maps.mecklenburgcountync.gov/opendata/{record.pdf}"
           target="_blank"
           class="btn border duration-100 ease-out outline-transparent not-disabled:cursor-pointer hover:not-disabled:outline-[3px] hover:not-disabled:outline-border/50 hover:not-disabled:border-outline focus-visible:outline-[3px] focus-visible:outline-border/50 focus-visible:border-outline group/button relative inline-flex items-center justify-center font-medium text-[0.8125rem] text-start leading-tight rounded-md overflow-clip hover:z-10 hover:border-transparent disabled:opacity-60 disabled:pointer-events-none border-border! bg-background text-secondary-foreground hover:bg-card hover:border-ring! px-3 py-2 gap-[0.75ch] mt-1 self-start"
         >
@@ -264,7 +264,7 @@
       <!-- Shapefile -->
       {#if record.shapefile}
         <a
-          href="https://maps.mecklenburgcountyncnc.gov/opendata/{record.shapefile}"
+          href="https://maps.mecklenburgcountync.gov/opendata/{record.shapefile}"
           on:click={() => sendEvent(record.title, "shapefile")}
           class="btn"
           target="_blank"
@@ -286,7 +286,7 @@
       <!-- CAD File -->
       {#if record.cadfile}
         <a
-          href="https://maps.mecklenburgcountyncnc.gov/opendata/{record.cadfile}"
+          href="https://maps.mecklenburgcountync.gov/opendata/{record.cadfile}"
           on:click={() => sendEvent(record.title, "cad")}
           class="btn"
           target="_blank"
@@ -329,7 +329,7 @@
       <!-- Raster -->
       {#if record.raster}
         <a
-          href="https://maps.mecklenburgcountyncnc.gov/opendata/{record.raster}"
+          href="https://maps.mecklenburgcountync.gov/opendata/{record.raster}"
           on:click={() => sendEvent(record.title, "raster")}
           class="btn"
           target="_blank"
@@ -351,7 +351,7 @@
       {#if record.dbf}
         <a
           on:click={() => sendEvent(record.title, "dbf")}
-          href="https://maps.mecklenburgcountyncnc.gov/opendata/{record.dbf}"
+          href="https://maps.mecklenburgcountync.gov/opendata/{record.dbf}"
           class="btn"
           target="_blank"
         >
@@ -372,7 +372,7 @@
       {#if record.textfile}
         <a
           on:click={() => sendEvent(record.title, "text")}
-          href="https://maps.mecklenburgcountyncnc.gov/opendata/{record.textfile}"
+          href="https://maps.mecklenburgcountync.gov/opendata/{record.textfile}"
           class="btn"
           target="_blank"
         >
@@ -393,7 +393,7 @@
       {#if record.csv}
         <a
           on:click={() => sendEvent(record.title, "csv")}
-          href="https://maps.mecklenburgcountyncnc.gov/opendata/{record.csv}"
+          href="https://maps.mecklenburgcountync.gov/opendata/{record.csv}"
           class="btn"
           target="_blank"
         >
@@ -471,7 +471,7 @@
       <!-- metadata     -->
       {#if record.metadata}
         <a
-          href="https://maps.mecklenburgcountyncnc.gov/opendata/metadata/{record.metadata}"
+          href="https://maps.mecklenburgcountync.gov/opendata/metadata/{record.metadata}"
           class="btn"
           target="_blank"
           title="Metadata"
