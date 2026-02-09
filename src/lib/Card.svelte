@@ -2,10 +2,6 @@
   export let record;
   let readMore = false;
 
-  /**
-   * @param {any} title
-   * @param {string} format
-   */
   function sendEvent(title, format) {
     if (ga) ga("send", "event", "download", title, format);
   }
@@ -23,7 +19,7 @@
       class="shadow-xl border relative h-48 mx-4 -mt-6 overflow-hidden text-white bg-clip-border rounded-lg bg-blue-gray-500 shadow-blue-gray-500/40 bg-blue-gray-500 shadow-primaryTeal/40 gradient"
     >
       <img
-        src="https://maps.mecklenburgcountync.gov/opendata/thumbnails/{record.thumbnail}"
+        src="thumbnails/{record.thumbnail}"
         alt={record.description}
         class="w-full h-full"
       />
@@ -33,7 +29,7 @@
       class="relative h-48 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40 bg-blue-gray-500 shadow-primaryTeal/40 gradient"
     >
       <img
-        src="https://maps.mecklenburgcountync.gov/opendata/thumbnails/{record.github_thumbnail}"
+        src="thumbnails/{record.github_thumbnail}"
         alt={record.description}
         class="w-full h-full"
       />
@@ -150,7 +146,7 @@
           {#if record.source}
             <li class="flex items-center gap-3 py-1">
               <p
-                class="flex items-center min-w-0 gap-1.5 text-secondary-foreground"
+                class="flex items-center min-w-21 gap-1.5 text-secondary-foreground"
               >
                 <!-- SVG Source: https://creatorsrepo.com/icons -->
                 <svg
@@ -167,7 +163,7 @@
                 <span class="flex-1 truncate">Source</span>
               </p>
               <hr class="min-w-2 dashed flex-1" />
-              <span class="shrink-0 font-medium tabular-nums"
+              <span class="font-medium tabular-nums text-unwrap"
                 >{record.source}</span
               >
             </li>
