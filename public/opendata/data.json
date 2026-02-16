@@ -1,0 +1,1608 @@
+[
+    {
+        "ags": "https://meckaerial.mecklenburgcountync.gov/server/rest/services/aerial2025/MapServer/0",
+        "byod": "Data Request Smart Form.pdf",
+        "description": "Mecklenburg County has multiple years of imagery available in Geo TIFF or Geo JPEG file formats. To request an imagery dataset, please use the BYO Drive form. The REST icon provides access to aerial REST services from 2018 to current imagery.</P><B>SID or ECW imagery, with same resolution as Geo Tiles, are available for download at the link below.</B>",
+        "size": "See BYO Drive form for Geo Tile size",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/Imagery%20Download/",
+        "title": "Mecklenburg County Imagery"
+    },
+    {
+        "byod": "Data Request Smart Form.pdf",
+        "description": "<P><B>Datasets generated from LiDAR are available at the link below. Data generated from LiDAR include: DEM, Aspect, Hillshade, Slope, and Topography.</P></B>LiDAR data are processed to a geographic extent: Southern Piedmont Region of Mecklenburg County, North Carolina, covering approximately 564 square miles.",
+        "size": "See BYO Drive form for Geo Tile size",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/Elevation%20Surface%20Data/",
+        "title": "Mecklenburg County LiDAR"
+    },
+    {
+        "description": "Mecklenburg County GIS has conducted tree canopy studies using NIR or False Color IR. Only trees are classified in these studies. Each tree canopy dataset was subject to a thorough manual quality control. All tree canopy analyses are conducted using unsupervised classifications and training areas in ArcGIS Pro.",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/Tree%20Canopy%20Studies/",
+        "title": "Tree Canopy Analysis"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/AdoptAStream/FeatureServer/0",
+        "description": "Streams in Mecklenburg County identified in the Adopt-A-Stream Program. Citizen groups can adopt a one-mile stream segment for clean up purposes.",
+        "metadata": "Adopted_Streams.html",
+        "shapefile": "Adopted_Streams.zip",
+        "size": "900 KB",
+        "source": "Mecklenburg County",
+        "title": "Adopted Streams",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/CharlotteAirport/FeatureServer/0",
+        "description": "Charlotte-Douglas International Airport runways and terminal.",
+        "metadata": "Airport.html",
+        "shapefile": "Airport.zip",
+        "size": "68 KB",
+        "source": "Mecklenburg County",
+        "title": "Airport",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/ABCRetailLocations/FeatureServer/0",
+        "description": "ABC (Alcohol Beverage Control) store locations in Mecklenburg County.",
+        "metadata": "ABC_Stores.html",
+        "shapefile": "Alcoholbevctrl_stores.zip",
+        "size": "10 KB",
+        "source": "Mecklenburg County Alcohol Beverage Control Board",
+        "title": "Alcohol Beverage Control Stores",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/AnnexationHistory/FeatureServer/0",
+        "description": "Dataset denotes historical annexation boundaries for Charlotte, Davidson, Cornelius, Huntersville, Matthews, Mint Hill, and Pineville. This layer delineates a boundary for each annexation by year.",
+        "metadata": "Annexation_History.html",
+        "shapefile": "Annexation_History.zip",
+        "size": "3 MB",
+        "source": "Mecklenburg County",
+        "title": "Annexation History",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/ASCArtInstallations/FeatureServer/0",
+        "description": "Dataset displays art exhibits. Like sculptures, murals, paintings, photography, lighting, and other mediums across the Charlotte area in Mecklenburg County. Art is both interior to buildings and exterior in public spaces.",
+        "metadata": "ASC_Art_Installations.html",
+        "shapefile": "ASC_Art_Installations.zip",
+        "size": "34 KB",
+        "source": "Arts and Science",
+        "title": "ASC Art Installations",
+        "updated": "January 22, 2024"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Bike_Lanes/FeatureServer/0",
+        "description": "Data set is Bicycle Lanes for the City of Charlotte.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/4f01b261fdc94191975500a7a9a2c1ac_0/explore",
+        "title": "Bike Lanes"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Signed_Bike_Routes/FeatureServer/0",
+        "description": "Data set is Signed Bicycle Routes for the City of Charlotte.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/ab9cbfb639a74b0e9e9dc43054dd8052_0/explore",
+        "title": "Signed Bike Routes"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Suggested_Bike_Routes/FeatureServer/0",
+        "description": "This dataset suggest bike routes to help cyclists navigate Charlotte's street network. The suggested routes have been identified with the assistance of the Bicycle Advisory Committe and experienced Charlotte cyclists.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/5b5c958267d740c3a8e71e063a1abb0d_0/explore",
+        "title": "Suggested Bike Routes"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/BMPFacility/FeatureServer/0",
+        "description": "This dataset contains individual BMP areas associated with a property. Data includes inspection information and physical characteristics of the individual BMP in Mecklenburg County.",
+        "metadata": "BMP_Facility.html",
+        "shapefile": "BMP_Facility.zip",
+        "size": "2 MB",
+        "source": "Mecklenburg County",
+        "title": "BMP Facility",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/BMPProject/FeatureServer/0",
+        "description": "This dataset contains project areas associated with individual BMP facilities. BMP projects contain BMP facilities, BMP facilities treat the run-off for a BMP project. General owner information is contained in this dataset contained in Mecklenburg County.",
+        "metadata": "BMP_Project.html",
+        "shapefile": "BMP_Project.zip",
+        "size": "2 MB",
+        "source": "Mecklenburg County",
+        "title": "BMP Project",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/MecklenburgCountyCommissionerDistricts/FeatureServer/0",
+        "description": "The nine-member Board of County Commissioners is the governing body of Mecklenburg County. Elections are held in November of even-numbered years with six commissioners elected by district and three commissioners elected at-large.",
+        "metadata": "countycommissioners.html",
+        "shapefile": "BOCC.zip",
+        "size": "189 KB",
+        "source": "Mecklenburg County",
+        "title": "Mecklenburg County Commissioner Districts",
+        "updated": "February 12, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/BuildingPermits_Accela/FeatureServer/0",
+        "description": "This dataset contains new building permits from Accela. </P><B>FOR NON-GIS SOFTWARE USERS WHO WANT TO VIEW DATA IN EXCEL:</B> Unzip File to local hard drive folder, Launch Excel, Click the File tab and select Open. Click the Files of Type drop-down list; by default it reads, Excel Files. Select dBase Files or All Files. Use the file browser to locate the dBase(*.dbf) format file you want to open. Lastly, Save the loaded dbf file as an Excel Workbook.",
+        "metadata": "BuildingPermits.html",
+        "pdf": "USDC Building Codes and Descriptions.pdf",
+		"shapefile": "BuildingPermits_Accela.zip",
+		"gpkg": "BuildingPermits.zip",
+        "size": "10 MB",
+        "source": "Mecklenburg County",
+        "title": "Building Permits - Accela",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/BuildingPermits/FeatureServer/0",
+        "description": "This dataset contains legacy building permits from Winchester. New building permits are added in the Accela file, this file is legacy data ONLY. </P><B>FOR NON-GIS SOFTWARE USERS WHO WANT TO VIEW DATA IN EXCEL:</B> Unzip File to local hard drive folder, Launch Excel, Click the File tab and select Open. Click the Files of Type drop-down list; by default it reads, Excel Files. Select dBase Files or All Files. Use the file browser to locate the dBase(*.dbf) format file you want to open. Lastly, Save the loaded dbf file as an Excel Workbook.",
+        "metadata": "BuildingPermits.html",
+        "pdf": "USDC Building Codes and Descriptions.pdf",
+        "shapefile": "BuildingPermits_Winchester.zip",
+		"gpkg": "BuildingPermits.zip",
+        "size": "80 MB",
+        "source": "Mecklenburg County",
+        "title": "Building Permits - Winchester",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/BuildingFootprints/FeatureServer/0",
+        "description": "This dataset contains building outlines for structures in Mecklenburg County. </P><B>Historical data is available at the link below.</B>",
+        "metadata": "Building_Footprints.html",
+        "shapefile": "Buildings.zip",
+        "size": "70 MB",
+        "source": "Mecklenburg County",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/Historical%20Building%20Footprints/",
+        "title": "Building Footprints",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/BusinessInvestmentOpportunityZones/FeatureServer/0",
+        "description": "This dataset displays areas that are within a 1/4 mile of a commercial property that has a value 70% the County average and a median household income of <= 55K in Mecklenburg County.",
+        "metadata": "Business_Investment_Opportunity_Zones.html",
+        "shapefile": "Business_Investment_Opportunity_Zones.zip",
+        "size": "180 KB",
+        "source": "Mecklenburg County",
+        "title": "Business Investment Opportunity Zones",
+        "updated": "February 12, 2026"
+    },
+    {
+        "ags": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/CarolinaThreadTrail/FeatureServer/0",
+        "description": "The Carolina Thread Trail (The Thread) is a regional network of planned greenways and trails totaling 1,400 miles that reaches 15 counties and 2.3 million people. This shapefile shows the location of adopted Thread Trail routes which were decided upon by the individual counties. Thread Trail routes can include natural surface trails, paved greenways, sidewalks, bike lanes, equistrian trails, and mountain bike trails.",
+        "metadata": "CarolinaThreadTrail_ln.html",
+        "shapefile": "CarolinaThreadTrail.zip",
+        "size": "883 KB",
+        "source": "City of Charlotte",
+        "title": "Carolina Thread Trail",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/2020CensusBlockGroups/FeatureServer/0",
+        "description": "US Census Bureau 2020 Block Groups for Mecklenburg County, NC.</P><B>Historic data is available at the link below.</B>",
+        "metadata": "census_blockgroups.html",
+        "shapefile": "Census_BlockGroups_2020.zip",
+        "size": "1 MB",
+        "source": "US Census Bureau",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/Census%20Data/",
+        "title": "Census Block Groups - 2020",
+        "updated": "March 08, 2021"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/2020CensusBlocks/FeatureServer/0",
+        "description": "US Census Bureau 2020 Blocks for Mecklenburg County, NC.</P><B>Historic data is available at the link below.</B>",
+        "metadata": "census_blocks.html",
+        "shapefile": "Census_Blocks_2020.zip",
+        "size": "8 MB",
+        "source": "US Census Bureau",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/Census%20Data/",
+        "title": "Census Blocks - 2020",
+        "updated": "March 08, 2021"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/2020CensusTracts/FeatureServer/0",
+        "description": "US Census Bureau 2020 Census Tracts for Mecklenburg County, NC.</P><B>Historic data is available at the link below.</B>",
+        "metadata": "census_tracts.html",
+        "shapefile": "Census_Tracts_2020.zip",
+        "size": "700 KB",
+        "source": "US Census Bureau",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/Census%20Data/",
+        "title": "Census Tracts - 2020",
+        "updated": "March 08, 2021"
+    },
+    {
+        "description": "Priority community census tracts for master planning purposes. US Census Bureau Census Tracts for Mecklenburg County, NC.</P><B>Historic data is available at the link below.</B>",
+        "metadata": "PriorityCommunities_ParkRecMasterPlan.html",
+        "size": "285 KB",
+        "source": "Mecklenburg County",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/Census%20Data/",
+        "title": "Priority Communities Census Data",
+        "updated": "March 11, 2021"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Center_Corridor_Wedge/FeatureServer/0",
+        "description": "The Centers and Corridors development framework was originally introduced in 1994 and is the City of Charlotte's adopted policy for organizing and guiding growth and development within the City of Charlotte. The framework was updated and adopted by the Charlotte City Council in August 2010. The updated framework broadens the original transportation oriented focus to include other aspects of planning and development, such as public facility needs and environmental concerns. The update also provides more specific definitions and guidance for Centers and Corridors and expands the concept to provide recommendations for Wedges, as well.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/ce1302dab08a4b55a91c77109c1f48f3_0/explore",
+        "title": "Center Corridor Wedge"
+    },
+    {
+        "description": "Historical GIS data for Mecklenburg County from 1999.",
+        "source": "Mecklenburg County",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/DELD%20Data%201999/",
+        "title": "Historic DELD (Demographic, Employment & Land Development) Data 1999"
+    },
+    {
+        "ags": "https://services.arcgis.com/BWD3gDuaqc7SQmy7/arcgis/rest/services/ParksGroundsAssets_view/FeatureServer",
+        "description": "This hosted feature layer contains features in the Parks and Grounds Asset Management System for Mecklenburg County Parks. The dataset includes assets for parks departments in Charlotte, Cornelius, Davidson, Huntersville, Matthews, Mint Hill, Pineville, and Mecklenburg County.",
+        "source": "Mecklenburg County",
+        "title": "Parks and Grounds Assets"
+    },
+    {
+        "description": "This dataset contains service areas for parks, greenway entrances, and YMCA in Mecklenburg County. Service areas are provided in 5-minute and 10-minute drive times, and 10-minute walking time.",
+        "metadata": "ServiceAreas_ParkFacility_Enrich_py.html",
+        "shapefile": "ServiceAreas_Park_Greenway_YMCA.zip",
+        "size": "107 MB",
+        "source": "Mecklenburg County",
+        "title": "Park, Greenway, and YMCA Service Areas",
+        "updated": "April 24, 2024"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/GreenwayTrailEntrances/FeatureServer/0",
+        "description": "This dataset contains addressed greenway entrances along all developed greenways in Mecklenburg County.",
+        "metadata": "Greenway_Entrances.html",
+        "shapefile": "Greenway_Entrances.zip",
+        "size": "40 KB",
+        "source": "Mecklenburg County",
+        "title": "Greenway Trail Entrances",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/GreenwayMileMarkers/FeatureServer/0",
+        "description": "This dataset contains mile markers along active greenways at an interval distance of 0.25 mile in Mecklenburg County. All mile markers begin at the most downstream section of greenway currently developed and progress upstream.",
+        "metadata": "Greenway_MileMarkers.html",
+        "shapefile": "Greenway_MileMarkers.zip",
+        "size": "40 KB",
+        "source": "Mecklenburg County",
+        "title": "Greenway Mile Markers",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/GreenwayTrails/FeatureServer/0",
+        "description": "Mecklenburg County Park and Recreation currently developed greenway trails.",
+        "metadata": "Greenway_Existing.html",
+        "shapefile": "Greenways.zip",
+        "size": "500 KB",
+        "source": "Mecklenburg County",
+        "title": "Greenway Trails",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/GreenwayMasterPlanTrail/FeatureServer/0",
+        "description": "Mecklenburg County Park and Recreation Greenway Master Plan. Dataset depicts potential future greenway development in Mecklenburg County.",
+        "metadata": "GreenwayMasterPlan.html",
+        "shapefile": "GreenwayMasterPlan.zip",
+        "size": "800 KB",
+        "source": "Mecklenburg County",
+        "title": "Greenway Master Plan Trail",
+        "updated": "February 10, 2026"
+    },
+    {
+        "description": "Mecklenburg County Park and Recreation trail maps for all developed greenways.",
+        "pdf": "GreenwayBrochure.pdf",
+        "size": "300 MB",
+        "source": "Mecklenburg County",
+        "title": "Greenway Trail Maps",
+        "updated": "April 5, 2024"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/MiscellaneousParcelLines/FeatureServer/0",
+        "description": "The dataset consists of various miscellaneous lines necessary to tax information, but not belonging to any other dataset, including old parcel lines (history lines), undedicated access (private roads), proposed roads, parcel lines crossing into other counties, condominium outlines, etc.",
+        "metadata": "Miscellaneous_Parcel_Lines.html",
+        "shapefile": "MiscParLine.zip",
+        "size": "8 MB",
+        "source": "Mecklenburg County",
+        "title": "Miscellaneous Parcel Lines",
+        "updated": "February 12, 2026"
+    },
+    {
+        "description": "Unrecorded maps, documents and surveys associated with land in Mecklenburg County for research purposes.",
+        "source": "Mecklenburg County",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/Book%20Folders/",
+        "title": "Historic Book Folders"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/PreliminarySubdivisionPlans/FeatureServer/0",
+        "description": "Parcel lines for preliminary plans, from digital submittals of subdivisions by surveying companies.",
+        "metadata": "Preliminary_Plans.html",
+        "shapefile": "PreliminaryPlans.zip",
+        "size": "45 MB",
+        "source": "Mecklenburg County",
+        "title": "Preliminary Plans",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Sidewalk_Inventory/FeatureServer/0",
+        "description": "This dataset displays the City of Charlotte sidewalk inventory. The dataset contains features for sections of missing sidewalk. The attributes include the presence of planting strips and approximate sidewalk width.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/48395c05f606412591942e8b7266e212_0/explore",
+        "title": "Sidewalk Inventory"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/NCGSMonuments/FeatureServer/0",
+        "description": "This dataset contains a set of geodetic control stations, commonly called monuments or benchmarks, maintained by NCGS. Each geodetic control station in this dataset has either a precise Latitide/Longitude used for horizontal control or a precise Orthometric Height used for vertical control, or both. These stations are in Mecklenburg County, North Carolina.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/60b2d31a34a54dc68a77413f3553618a_0/explore",
+        "title": "NC Geodetic Survey Control Stations"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/TaxEasements/FeatureServer/0",
+        "description": "Property related information, this dataset contains easements compiled from manual cadastral maps in Mecklenburg County, North Carolina.",
+        "metadata": "TaxEasements.html",
+        "shapefile": "TaxEasements.zip",
+        "size": "2 MB",
+        "source": "Mecklenburg County",
+        "title": "Tax Easements",
+        "updated": "February 12, 2026"
+    },
+    {
+        "description": "<B>Historic</B> property related information, this dataset contains tax book boundaries defined by Mecklenburg County Assessor's Office. This dataset is used to select or query all parcels within each tax book in Mecklenburg County, North Carolina.",
+        "metadata": "TaxBook_Boundary.html",
+        "shapefile": "TaxBook_Boundary.zip",
+        "size": "1 MB",
+        "source": "Mecklenburg County",
+        "title": "Tax Book Boundaries",
+        "updated": "January 09, 2023"
+    },
+    {
+        "description": "Mecklenburg County properties that are exempt from property taxes.",
+        "metadata": "Parcel_PubExemption.html",
+        "shapefile": "Parcel_PubExemption.zip",
+        "size": "4 MB",
+        "source": "Mecklenburg County",
+        "title": "Tax Exempt Properties",
+        "updated": "February 10, 2026"
+    },
+    {
+        "description": "Mecklenburg County unpaid (foreclosure) tax bill information.</P><B>Download the text file to your computer.</B> </P><B>Open</B> Microsoft Excel. Select the <B>Data tab</B>. Click from <B>Text</B>. Browse to the <B>text file</B> and select it. Click <B>Import</B>. The Text Import Wizard will begin. Select the Delimiter as <B>Comma</B>. Click Next or Load.",
+        "metadata": "UnpaidTaxBills.html",
+        "size": "27 MB",
+        "source": "Mecklenburg County",
+        "textfile": "UnpaidTaxBills.zip",
+        "theURL": "https://tax.mecknc.gov/services/Delinquent-Taxpayer-Lists",
+        "title": "Unpaid Tax Bills",
+        "updated": "February 09, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/PublicProperties/FeatureServer/0",
+        "description": "Current property related information; Including parcel and lot boundaries and right-of-way lines for publicly owned parcels in Mecklenburg County. This dataset includes parcels owned by Catawba Lands Conservancy, CPCC, City of Charlotte, CMS, Mecklenburg County, State of NC, and towns in Mecklenburg County (Cornelius, Davidson, Huntersville, Matthews, Mint Hill, and Pineville). </P><B>FOR NON-GIS SOFTWARE USERS WHO WANT TO VIEW DATA IN EXCEL:</B> Unzip File to local hard drive folder, Launch Excel, Click the File tab and select Open. Click the Files of Type drop-down list; by default it reads, Excel Files. Select dBase Files or All Files. Use the file browser to locate the dBase(*.dbf) format file you want to open. Lastly, Save the loaded dbf file as an Excel Workbook.",
+        "metadata": "Tax_Parcels_with_CAMA_Data.html",
+        "shapefile": "Public_Owned_Parcels.zip",
+        "size": "1.67 MB",
+        "source": "Mecklenburg County",
+        "title": "Public Owned Parcels",
+        "updated": "February 12, 2026"
+    },
+    {
+        "description": "Parcels that have more than one property owner. Current property ownership related information; including ownership name, mailing address, situs address and <B>2024 real estate assessed values</B>. </P><B>FOR NON-GIS SOFTWARE USERS WHO WANT TO VIEW DATA IN EXCEL:</B> Unzip File to local hard drive folder, Launch Excel, Click the File tab and select Open. Click the Files of Type drop-down list; by default it reads, All Excel Files. Select dBase Files or All Files. Use the file browser to locate the dBase(*.dbf) format file you want to open. Lastly, Save the loaded dbf file as an Excel Workbook.",
+        "metadata": "Tax_Parcel_Ownership_Data.html",
+        "shapefile": "Parcels_GtrOneOwner.zip",
+        "size": "50.7 MB",
+        "source": "Mecklenburg County",
+        "title": "Parcels - More Than One Owner",
+        "updated": "February 12, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/TaxParcel_camadata/FeatureServer/0",
+        "description": "This data represents our most current Real Estate Computer Assisted Mass Appraisal (CAMA) data appended to updated parcels and contains <B>2025 real estate assessed values</B>, owner, and building information. Be aware of multiple buildings per parcel; like apartment complexes. </P><B>Historical data is available at the link below. </B></P><B>Please use Tax Parcel Ownership Data</B> for deriving property value summaries. </P><B>FOR NON-GIS SOFTWARE USERS WHO WANT TO VIEW ASSESSORS DATA IN EXCEL:</B> Unzip File to local hard drive folder, Launch Excel, Click the File tab and select Open. Click the Files of Type drop-down list; by default it reads, All Excel Files. Select dBase Files or All Files. Use the file browser to locate the dBase(*.dbf) format file you want to open. Lastly, Save the loaded dbf file as an Excel Workbook.",
+        "metadata": "Tax_Parcels_with_CAMA_Data.html",
+        "pdf": "Parcel_LandUseCodes.pdf",
+        "shapefile": "Parcel_TaxData.zip",
+        "size": "1.89 GB",
+        "source": "Mecklenburg County",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/Parcel%20Data%20Archive/",
+        "title": "Tax Parcel CAMA Data",
+        "updated": "February 13, 2026"
+    },
+    {
+        "description": "</P><B>DISCLAIMER:</B> </P>Use this data for deriving property value summaries, or generating mailing notifications. This dataset contains property owner information, most recent deed sales price, <B>2025 real estate assessed values</B>, and building information. </P><B>FOR NON-GIS SOFTWARE USERS WHO WANT TO VIEW ASSESSORS DATA IN EXCEL:</B> Unzip File to local hard drive folder, Launch Excel, Click the File tab and select Open. Click the Files of Type drop-down list; by default it reads, All Excel Files. Select dBase Files or All Files. Use the file browser to locate the dBase(*.dbf) format file you want to open. Lastly, Save the loaded dbf file as an Excel Workbook.",
+        "metadata": "Tax_Parcel_Ownership_Data.html",
+        "pdf": "Parcel_LandUseCodes.pdf",
+        "shapefile": "Parcel_Ownership.zip",
+        "size": "931 MB",
+        "source": "Mecklenburg County",
+        "title": "Tax Parcel Ownership Data",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/TaxParcelBoundaries/FeatureServer/0",
+        "description": "Current tax parcel boundaries <B>ONLY</B>, no CAMA related data appended in this file.",
+        "metadata": "Tax_Parcels.html",
+        "shapefile": "Parcels_NoData.zip",
+        "size": "58 MB",
+        "source": "Mecklenburg County",
+        "title": "Tax Parcel Boundaries",
+        "updated": "February 13, 2026"
+    },
+    {
+        "description": "Parcel dimensions as annotation points. This file includes legal lot numbers, condo unit numbers, legal block, town house numbers, and parcel dimension numbers.",
+        "metadata": "Tax_Annotation.html",
+        "shapefile": "TaxAnnotation.zip",
+        "size": "15.6 MB",
+        "source": "Mecklenburg County",
+        "title": "Tax Parcel Annotation",
+        "updated": "February 12, 2026"
+    },
+    {
+        "description": "Parcel dimensions as annotation along a line. This file includes parcel dimensions.",
+        "metadata": "Tax_Dimension.html",
+        "shapefile": "TaxDimension.zip",
+        "size": "48.6 MB",
+        "source": "Mecklenburg County",
+        "title": "Tax Parcel Dimension",
+        "updated": "February 12, 2026"
+    },
+    {
+        "description": "This data contains all parcel sales by sale date with sale amount and grantor/grantee.</P><B>FOR NON-GIS SOFTWARE USERS WHO WANT TO VIEW ASSESSORS DATA IN EXCEL:</B> Unzip File to local hard drive folder, Launch Excel, Click the File tab and select Open. Click the Files of Type drop-down list; by default it reads, All Excel Files. Select dBase Files or All Files. Use the file browser to locate the dBase(*.dbf) format file you want to open. Lastly, Save the loaded dbf file as an Excel Workbook.",
+        "metadata": "TaxParcel_Sales.html",
+        "shapefile": "Parcel_Sales.zip",
+        "size": "38.3 MB",
+        "source": "Mecklenburg County",
+        "title": "Tax Parcel Sales",
+        "updated": "February 12, 2026"
+    },
+    {
+        "ags": "https://meckags.mecklenburgcountync.gov/server/rest/services/Parcels/CommonAreaParcels/FeatureServer/0",
+        "description": "This dataset has all parcels in Mecklenburg County that are identified as common area.</P><B>FOR NON-GIS SOFTWARE USERS WHO WANT TO VIEW ASSESSORS DATA IN EXCEL:</B> Unzip File to local hard drive folder, Launch Excel, Click the File tab and select Open. Click the Files of Type drop-down list; by default it reads, All Excel Files. Select dBase Files or All Files. Use the file browser to locate the dBase(*.dbf) format file you want to open. Lastly, Save the loaded dbf file as an Excel Workbook.",
+        "metadata": "common_area_parcels_py.html",
+        "pdf": "Parcel_LandUseCodes.pdf",
+        "shapefile": "Common_Area_Parcels.zip",
+        "size": "3.75 MB",
+        "source": "Mecklenburg County",
+        "title": "Common Area Parcels",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Colleges/FeatureServer/0",
+        "description": "Dataset contains public and private colleges and universities in Mecklenburg County.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/533a72d950844cf5b43977efcf612e68_0/explore",
+        "title": "Colleges and Universities"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Fire_Station_Administrative_Areas/FeatureServer/0",
+        "description": "This file shows the current administrative still alarm areas for each individual Charlotte Fire Station.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/fa8c6d18da5e4abb88e3b6a5b91ad815_0/explore",
+        "title": "Charlotte Fire Response Areas"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Current_CFD_Fire_Stations/FeatureServer/0",
+        "description": "Geographical representation of the physical locations of the Charlotte Fire Department Fire Stations. This dataset represents all active fire stations (or firehouses) that provide fire services to residents in the City of Charlotte. All Charlotte Fire Stations (or firehouses) are staffed 24/7/365 with a minimum of 4 firefighter/EMT's.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/accc81ac125247ea9505495b878ca295_0/explore",
+        "title": "Charlotte Fire Stations"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/CMPD_Police_Division_Office/FeatureServer/0",
+        "description": "Charlotte-Mecklenburg Police Department (CMPD) Stations.",
+        "source": "Charlotte-Mecklenburg Police Department",
+        "theURL": "https://data.charlottenc.gov/datasets/9a1cffa85b5740cb8fd39dc4c9dfbbec_0/explore?location=35.192357%2C-80.833850%2C10.24",
+        "title": "Charlotte-Mecklenburg Police Offices",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/CMPD_Police_Wrecker_Zones/FeatureServer/0",
+        "description": "Charlotte-Mecklenburg Police Department (CMPD) Wrecker Zones. There is a wrecker service assigned to each Police Patrol Division.",
+        "source": "Charlotte-Mecklenburg Police Department",
+        "theURL": "https://data.charlottenc.gov/datasets/0f284a0bc0994d439d97c223794ce771_0/explore?location=35.263312%2C-80.807850%2C9.47",
+        "title": "Charlotte-Mecklenburg Police Divisions & Wrecker Zones",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/CMPD_Police_Response_Areas/FeatureServer/0",
+        "description": "Charlotte-Mecklenburg Police Department(CMPD) Response Areas, also known as CMPD Police Beats, are designed to strengthen ownership and accountability? for crime reduction and community safety. They enable assigned officers to become more familiar with the people who live and work there, patterns of crime and suspect behaviors, and community resources that may be leveraged to address crime and quality of life issues.",
+        "source": "Charlotte-Mecklenburg Police Department",
+        "theURL": "https://data.charlottenc.gov/datasets/2f5261043dc649feb2cfe24101c95697_15/explore",
+        "title": "Charlotte-Mecklenburg Police Response Areas",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/SheriffExecutionZones/FeatureServer/0",
+        "description": "Mecklenburg County Sheriff Execution Zones.",
+        "metadata": "Sheriff_ExecutionZones.html",
+        "shapefile": "Sheriff_ExecutionZones.zip",
+        "size": "226 KB",
+        "source": "Mecklenburg County",
+        "title": "Mecklenburg Sheriff Execution Zones",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/SheriffOperationZones/FeatureServer/0",
+        "description": "Mecklenburg County Sheriff Operation Zones.",
+        "metadata": "Sheriff_OperationZones.html",
+        "shapefile": "Sheriff_OperationZones.zip",
+        "size": "403 KB",
+        "source": "Mecklenburg County",
+        "title": "Mecklenburg Sheriff Operation Zones",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/NPA/FeatureServer/0",
+        "description": "Quality of Life Explorer, neighborhood profile areas.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/66badc91d2da47958c47f20c2b1bc417_1/explore",
+        "title": "Neighborhood Profile Areas",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/VolunteerFireDistricts/FeatureServer/0",
+        "description": "The dataset contains volunteer fire districts for Mecklenburg County, North Carolina.",
+        "metadata": "Volunteer_Fire_Districts.html",
+        "shapefile": "VFD_FireDistricts.zip",
+        "size": "1.25 MB",
+        "source": "Mecklenburg County",
+        "title": "Volunteer Fire Department Boundaries",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/VolunteerFireStations/FeatureServer/0",
+        "description": "he dataset contains volunteer fire stations for Mecklenburg County, North Carolina.",
+        "metadata": "Volunteer_Fire_Stations.html",
+        "shapefile": "VFD_FireStations.zip",
+        "size": "7 KB",
+        "source": "Mecklenburg County",
+        "title": "Volunteer Fire Department Stations",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/EngineeringGrid/FeatureServer/0",
+        "description": "Engineering Map Index - An index showing the engineering mapping tiles for Mecklenburg County.",
+        "metadata": "Engineering_Map_Grid.html",
+        "shapefile": "EngGrid.zip",
+        "size": "463 KB",
+        "source": "Mecklenburg County",
+        "title": "Engineering Grid",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/CreeksAndStreams/FeatureServer/0",
+        "description": "Streams in Mecklenburg County.",
+        "metadata": "Creeks_Streams.html",
+        "shapefile": "Creeks_Streams.zip",
+        "size": "5 MB",
+        "source": "Mecklenburg County",
+        "title": "Creeks and Streams",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/DrinkingWaterWatershed/FeatureServer/0",
+        "description": "This dataset shows the protected watersheds indicating that special development restrictions apply within these selected drinking water watershed areas. These watershed boundaries are located in northeastern Mecklenburg County, North Carolina.",
+        "metadata": "Watersheds_DrinkingWater.html",
+        "shapefile": "DrinkingWater_Watershed.zip",
+        "size": "720 KB",
+        "source": "Mecklenburg County",
+        "title": "Drinking Water Watersheds",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/StormWaterWatersheds/FeatureServer/0",
+        "description": "This dataset shows the stormwater watersheds, these watersheds identify a creek or stream that stormwater will flow into after a percipitation event. These watershed boundaries are located in Mecklenburg County, North Carolina.",
+        "metadata": "Watersheds_StormWater.html",
+        "shapefile": "StormWater_Watershed.zip",
+        "size": "1.2 MB",
+        "source": "Mecklenburg County",
+        "title": "Storm Water Watersheds (Creek Basins)",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/LakesAndPonds/FeatureServer/0",
+        "description": "The dataset displays waterbodies along the Catawba River Basin from Lake Hickory thru Lake Norman, Mountain Island Lake, and Lake Wylie to Fishing Creek Lake at Great Falls, SC. This dataset also includes Pond water features within Mecklenburg County, NC. The dataset was created to provide users a coverage for display of the Catawba River as a shaded polygon on maps.",
+        "metadata": "Lakes_Ponds.html",
+        "shapefile": "Lakes_Ponds.zip",
+        "size": "6 MB",
+        "source": "Mecklenburg County",
+        "title": "Lakes and Ponds",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/PostConstructionDistricts/FeatureServer/0",
+        "description": "Plan review ensures that sufficient post-construction structural controls will be implemented to protect water quality and mitigate the impacts of development on stream flows after construction is complete. Dataset contains construction buffers identified for each creek or stream.",
+        "metadata": "PostConstructionDistricts.html",
+        "shapefile": "PostConstructionDistricts.zip",
+        "size": "760 KB",
+        "source": "Mecklenburg County",
+        "title": "Post Construction Districts",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/MPLContaminationSites/FeatureServer/0",
+        "description": "MPL Sites are compiled to represent the locations of properties that have been designated by the State of North Carolina and Mecklenburg County as environmental contamination sites. Mecklenburg County Priority Contamination Sites (MPL's), may be a single parcel or a collection of two or more contiguous parcels that represent the boundaries of a property that has been designated as a contamination site. These can include; gas stations, cleaners, manufacturing facilities, inert debris facilities, etc.",
+        "metadata": "MPL_Sites.html",
+        "shapefile": "MPL_Sites.zip",
+        "size": "1.8 MB",
+        "source": "Mecklenburg County",
+        "title": "MPL Contamination Sites",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/Subdivisions/FeatureServer/0",
+        "description": "<P><B>Subdivisions can not be perceived as neighborhood boundaries. Neighborhood boundaries are typically subjective.</B></P>This file represents a continually expanding dataset for subdivisions in Mecklenburg County. This data is sourced from Recorded   maps/plats at the Register of Deeds, names and boundaries are taken from these maps. This data is county-wide EXCEPT for the neighborhoods around Charlotte's Uptown (Dilworth, Elizabeth, etc.) Newer infill developments in these areas may be included. Names and unit counts for apartment and condo complexes, which don't have recorded maps, are taken from Assessment data.",
+        "metadata": "subdivisions_py.html",
+        "shapefile": "Subdivisions.zip",
+        "size": "4 MB",
+        "source": "Mecklenburg County",
+        "title": "Subdivisions",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/Soils/FeatureServer/0",
+        "description": "This data set is a digital soil survey and is the most detailed level of soil geographic data developed by the National Cooperative Soil Survey. The information was collected by digitizing maps, by compiling information onto a planimetric correct base and digitizing, or by revising digitized maps using remotely sensed and other information.",
+        "metadata": "soil_metadata_nc119.html",
+        "shapefile": "Soils.zip",
+        "size": "14 MB",
+        "source": "USDA-Natural Resource Conservation Service",
+        "title": "Soils",
+        "updated": "July 15, 2025"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/WaterQualityBuffers/FeatureServer/0",
+        "description": "The dataset contains polygons representing: Piped - No Buffer; Post Construction Buffers; Surface Water Infrastructure Management (SWIM) buffers; Water Supply Watershed Buffers (WSW); and Wildlife Buffers for Mecklenburg County,  NC.",
+        "metadata": "WaterQuality_Buffers.html",
+        "shapefile": "WaterQuality_Buffers.zip",
+        "size": "23 MB",
+        "source": "Mecklenburg County",
+        "title": "Water Quality Buffers",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/YMCA/FeatureServer/0",
+        "description": "This dataset was generated to publish a geospatial inventory of YMCAs in  Mecklenburg County, NC. This data serves to support and assist the Charlotte Mecklenburg Planning Department, The City of Charlotte, and others in Urban Planning decisions.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/0ae68fa0071b4e7997434862347e0528_0/explore",
+        "title": "YMCA"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/Wetlands/FeatureServer/0",
+        "description": "This data set represents the extent, approximate location and type of wetlands and deepwater habitats in North Carolina and South Carolina. These data delineate the areal extent of wetlands and surface waters as defined by Cowardin et al. (1979). The National Wetlands Inventory - Version 2, Surface Waters and Wetlands Inventory was derived by retaining the wetland and deepwater polygons that compose the NWI digital wetlands spatial data layer and reintroducing any linear wetland or surface water features that were orphaned from the original NWI hard copy maps by converting them to narrow polygonal features.",
+        "metadata": "wetlands_py.html",
+        "shapefile": "Wetlands.zip",
+        "size": "76.2 MB",
+        "source": "US Fish and Wildlife Service: National Wetlands Inventory",
+        "title": "Wetlands",
+        "updated": "July 15, 2025"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/CommunityFloodway/FeatureServer/0",
+        "description": "An area of the floodplain that must be kept clear of any obstruction (fill dirt, buildings, etc) as to not impede the flow of water. Development in this area is very restrictive, and usually requires a detailed engineering analysis (and local approval) prior to beginning development.",
+        "metadata": "Community_Encroachment.html",
+        "shapefile": "Community_Floodway.zip",
+        "size": "1.36 MB",
+        "source": "Mecklenburg County",
+        "title": "Community Floodway",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/FEMAFloodplain/FeatureServer/0",
+        "description": "Federal Emergency Management Agency one hundred year floodplain for Mecklenburg County, North Carolina.",
+        "metadata": "FEMA_100YrFloodPlain.html",
+        "shapefile": "FEMA_Floodplain.zip",
+        "size": "19 MB",
+        "source": "Mecklenburg County",
+        "title": "FEMA Floodplain",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/FEMAFloodway/FeatureServer/0",
+        "description": "Dataset contains polygons that represent the FEMA Floodway. The floodway is an area that must be reserved in order to discharge of the 100 year flood without cumulatively increasing the water surface elevation more than 0.5 feet. No fill or construction is permitted in this area.",
+        "metadata": "FEMA_Floodway.html",
+        "shapefile": "FEMA_Floodway.zip",
+        "size": "1.4 MB",
+        "source": "Mecklenburg County",
+        "title": "FEMA Floodway",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/CommunityFloodplain/FeatureServer/0",
+        "description": "Future floodplains are also called Community Floodplains and show where flooding is likely to occur in the future based on expected development upstream. As development occurs, regulations that help protect FEMA Floodplains and Community Floodplains will avoid hundreds of millions of dollars in future flood damage. Landowners and professionals planning any development activity in a floodplain within the City of Charlotte and/or Mecklenburg County should have the knowledge and skills to plan, design, and construct their project in compliance with local, state and federal Floodplain Regulations. For purposes of floodplain management, development means any man-made change to improved and unimproved real estate, including, but not limited to, buildings or other structures, mining, dredging, filling, grading, paving, excavating or drilling operations. Floodplain development restrictions apply to both FEMA Floodplains and Community Floodplains.",
+        "metadata": "Future_100yr_Floodplain.html",
+        "shapefile": "Community_Floodplain.zip",
+        "size": "18 MB",
+        "source": "Mecklenburg County",
+        "title": "Community Floodplain",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/FloodplainCrossSections/FeatureServer/0",
+        "description": "A line on a floodplain map indicating the discharges and water surface elevations that have been calculated for that section of the stream and floodplain.",
+        "metadata": "CrossSections.html",
+        "shapefile": "Cross_Sections.zip",
+        "size": "383 KB",
+        "source": "Mecklenburg County",
+        "title": "Floodplain Cross Sections",
+        "updated": "February 10, 2026"
+    },
+    {
+        "description": "Floodplain engineering models",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/Floodplain%20Models/",
+        "title": "Flood Mitigation Engineering Models, etc."
+    },
+    {
+        "description": "Effective and Preliminary Floodplain data, CAD, FIS, LOMC, and Flood Insurance Rate Map Panels: PDF versions of the official map on which the Federal Emergency Management Agency (FEMA) has delineated the Special Flood Hazard Areas and Community Floodplain for communities within Mecklenburg County. The main use of the FIRM is to correctly rate flood insurance policies but it also provides valuable information concerning the flood risk of property. ",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/Floodplain%20Mapping/",
+        "title": "Floodplain Mapping"
+    },
+    {
+        "description": "Health department restaurant inspection data for Mecklenburg County",
+        "theURL": "https://public.cdpehs.com/NCENVPBL/ESTABLISHMENT/ShowESTABLISHMENTTablePage.aspx?ESTTST_CTY=60",
+        "title": "Health Department Healthy LIVES (Local Inspector Value-Entry Specification) feed data"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/PlacesOfWorship/FeatureServer/0",
+        "description": "Churches dataset defines locations classified as religious organizations or places of worship in Mecklenburg County.This dataset is queried from the Master Address Table. There aren't any organization names or contact information within this dataset.",
+        "metadata": "Churches.html",
+        "shapefile": "Churches.zip",
+        "size": "88 KB",
+        "source": "Mecklenburg County",
+        "title": "Churches",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Historic_Districts/FeatureServer/0",
+        "description": "Seven of Charlotte's most significant older neighborhoods have been designated by City Council as Local Historic Districts, in recognition of their importance in the history and character of the city. The Historic District Commission and its staff work with property owners and businesses in the districts to assure that development and renovation occurs in a manner that is consistent with the character of the neighborhood. The purpose of a local historic district is to encourage the restoration, preservation, rehabilitation, and conservation of historically significant areas, structures, buildings, sites, and objects and their surroundings from potentially adverse influences which may cause the decline, decay, or total destruction of important historical, architectural, and archaeological features, which are a part of the city\u2019s heritage, and to review new construction design to ensure compatibility with the character of the district.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/85c4ef2cd70949bdb5286f0d6b005f9f_0/explore",
+        "title": "Historic Districts"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Historic_Cemeteries/FeatureServer/0",
+        "description": "Historic and abandoned cemeteries in Mecklenburg County, NC. The dataset was developed to alert existing and potential property owners of the existence of these cemeteries.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/3be4f2a07f95458fac463a4acf957b88_0/explore",
+        "title": "Historic Cemeteries"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/LocalHistoricProperty/FeatureServer/0",
+        "description": "This dataset represents a geospatial inventory of Historic Properties in Mecklenburg County.",
+        "metadata": "HistoricProperty_Local.html",
+        "shapefile": "HistoricProperty_Local.zip",
+        "size": "223 KB",
+        "source": "Mecklenburg County",
+        "title": "Historic Property Local",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/NationalHistoricProperty/FeatureServer/0",
+        "description": "This dataset represents nationally-designated historic properties in Mecklenburg County.",
+        "metadata": "HistoricProperty_National.html",
+        "shapefile": "HistoricProperty_National.zip",
+        "size": "8.63 KB",
+        "source": "Mecklenburg County",
+        "title": "Historic Property National",
+        "updated": "February 13, 2026"
+    },
+    {
+        "description": "Historical planimetric files by year for Mecklenburg County, NC.",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/Planimetric%20Data/",
+        "title": "Historic Planimetrics"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/MedicalFacilities/FeatureServer/0",
+        "description": "This dataset was generated to publish a geospatial inventory of Medical Facilities in Mecklenburg County. This data serves to support and assist the Charlotte Mecklenburg Planning Department, The City of Charlotte, and others in Urban Planning decisions.",
+        "metadata": "MedicalFacilities.html",
+        "shapefile": "MedicalFacilities.zip",
+        "size": "63.4 KB",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/7c8d7b1876fd477ebe104568f27b865a_4/explore?location=35.261469%2C-80.816700%2C9.57",
+        "title": "Medical Facilities"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/SinglefamilyImpervious/FeatureServer/0",
+        "description": "Polygon data for single family impervious surfaces in Charlotte-Mecklenburg, North Carolina.</P><B>Historical data is available at the link below.</B>",
+        "metadata": "Imp_Singlefamily_poly.html",
+        "shapefile": "Singlefamily_Impervious.zip",
+        "size": "176 MB",
+        "source": "Mecklenburg County",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/Impervious%20Archive/",
+        "title": "Residential Impervious Surfaces",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/CommercialImpervious/FeatureServer/0",
+        "description": "This dataset contains polygons representing the footprints of impervious area for commercial parcels; parking lots, buildings, etc, within Mecklenburg County, North Carolina. It is used to issue storm water bills to multifamily and commercial customers.</P><B>Historical data is available at the link below.</B>",
+        "metadata": "Impervious_Commercial_poly.html",
+        "shapefile": "Commercial_Impervious.zip",
+        "size": "61.5 MB",
+        "source": "Mecklenburg County",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/Impervious%20Archive/",
+        "title": "Commercial Impervious Surfaces",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/EdgeOfPavementImpervious/FeatureServer/0",
+        "description": "This dataset contains polygons representing the footprints of impervious areas that are classified as edge of streets and edge of sidewalks within Mecklenburg County, North Carolina.</P><B>Historical data is available at the link below.</B>",
+        "metadata": "Impervious_Surface_Other.html",
+        "shapefile": "Impervious_Surface_Other.zip",
+        "size": "29.8 MB",
+        "source": "Mecklenburg County",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/Impervious%20Archive/",
+        "title": "Impervious - Edge of Pavement",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Libraries/FeatureServer/0",
+        "description": "A point coverage of the Public Libraries in City of Charlotte and Mecklenburg County library system.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/2624c30596134e2591056e53709eba4b_0/explore",
+        "title": "Libraries"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/MasterAddressPoints/FeatureServer/0",
+        "description": "The Master Address Table contains all known addresses within Mecklenburg County. Addresses for each property are situs (physical) address. Addresses can be sorted by use or type, i.e.; Commercial, Single Family, Industrial, etc.",
+        "metadata": "Master_Address_Table.html",
+        "shapefile": "MAT.zip",
+        "size": "35.5 MB",
+        "source": "Mecklenburg County",
+        "title": "Master Address",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/MunicipalServiceDistricts/FeatureServer/0",
+        "description": "This dataset contains polygon features representing areas of additional taxation for growth and development in Mecklenburg County, North Carolina.",
+        "metadata": "Municipal_Service_Districts.html",
+        "pdf": "Mecklenburg County Tax Rates 2022-2023.pdf",
+        "shapefile": "MunService.zip",
+        "size": "81.8 KB",
+        "source": "Mecklenburg County",
+        "title": "Municipal Service Districts",
+        "updated": "February 12, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/SeamTrail/FeatureServer/0",
+        "description": "The Charlotte to Mooresville Trail is a county network of planned greenways and sidewalks that connect the City of Charlotte to the City of Mooresville in Iredell County. This shapefile shows the location of planned routes. Charlotte to Mooresville Trail routes can include natural surface trails, paved greenways, sidewalks, and bike lanes.",
+        "metadata": "CharlottetoMooresvilleTrail.html",
+        "shapefile": "CharlottetoMooresvilleTrail.zip",
+        "size": "46.2 KB",
+        "source": "Mecklenburg County",
+        "title": "Charlotte to Mooresville Trail",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Cross_Charlotte_Trail/FeatureServer/0",
+        "description": "City of Charlotte Cross Charlotte Trail. This dataset shows the existing and proposed alignments of the Cross Charlotte Trail. It also identifies which agency is responsible for construction and maintenance of each section of the trail.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/903553a0225e4300a3f0bcc52133e04e_0/explore",
+        "title": "Cross Charlotte Trail",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/Greenprint_Gap_Areas/FeatureServer/0",
+        "description": "Mecklenburg County Park and Recreation community gap areas identifies areas of Mecklenburg County where property acquisition or partnerships are needed to increase recreation access and recreation opportunities for residents.",
+        "metadata": "Greenprint_CommunityGapAreas_Final.html",
+        "shapefile": "Greenprint_CommunityGapAreas_Final.zip",
+        "size": "2.18 MB",
+        "source": "Mecklenburg County",
+        "title": "Greenprint Community Gap Areas",
+        "updated": "January 29, 2025"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/ParkParcels/FeatureServer/0",
+        "description": "Property related information for parcels owned by Mecklenburg County Park and Recreation. </P><B>FOR NON-GIS SOFTWARE USERS WHO WANT TO VIEW PARK PARCEL DATA IN EXCEL:</B> Unzip File to local hard drive folder, Launch Excel, Click the File tab and select Open. Click the Files of Type drop-down list; by default it reads, All Excel Files. Select dBase Files or All Files. Use the file browser to locate the dBase(*.dbf) format file you want to open. Lastly, Save the loaded dbf file as an Excel Workbook.",
+        "metadata": "park_parcels_prk.html",
+        "shapefile": "ParkParcels.zip",
+        "size": "960 KB",
+        "source": "Mecklenburg County",
+        "title": "Park Parcels",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/ParkBoundaries/FeatureServer/0",
+        "description": "Mecklenburg County owned property designated for park and/or greenway use. This is a dissolved file of Mecklenburg County Park and Recreation Park Parcels, to create a boundary file for each park.",
+        "metadata": "park_property_prk.html",
+        "shapefile": "ParkProperty.zip",
+        "size": "513 KB",
+        "source": "Mecklenburg County",
+        "title": "Park Property",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/ParkRegions/FeatureServer/0",
+        "description": "Mecklenburg County Park and Recreation districts.",
+        "metadata": "park_Regions.html",
+        "shapefile": "Park_Regions.zip",
+        "size": "580 KB",
+        "source": "Mecklenburg County",
+        "title": "Park Regions",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/ParkLocations/FeatureServer/0",
+        "description": "Mecklenburg County Park and Recreation park location entrance points.",
+        "metadata": "Parks_pt.html",
+        "shapefile": "Park_Locations.zip",
+        "size": "75.5 KB",
+        "source": "Mecklenburg County",
+        "title": "Park Locations",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/ParkAdvisoryCouncilDistricts/FeatureServer/0",
+        "description": "Park advisory council district boundaries for Mecklenburg County.",
+        "metadata": "Park_AdvisoryCouncil_Districts_py.html",
+        "shapefile": "Park_AdvisoryCouncil_Districts.zip",
+        "size": "401 KB",
+        "source": "Mecklenburg County",
+        "title": "Park Advisory Council Districts",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/NaturePreserveTrails/FeatureServer/0",
+        "description": "Mecklenburg County Park and Recreation nature preserve trails.",
+        "metadata": "NaturePreserve_Trails.html",
+        "shapefile": "NaturePreserve_Trails.zip",
+        "size": "202 KB",
+        "source": "Mecklenburg County",
+        "title": "Nature Preserve Trails",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/GolfCourses/FeatureServer/0",
+        "description": "Public and private golf courses in Mecklenburg County, identified by parcels.",
+        "metadata": "GolfCourses.html",
+        "shapefile": "Golf_Courses.zip",
+        "size": "252 KB",
+        "source": "Mecklenburg County",
+        "title": "Golf Courses",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Post_Office/FeatureServer/0",
+        "description": "Post Office locations in Mecklenburg County, NC.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/55b69ea75d314407afb70419268fae15_0/explore",
+        "title": "Post Offices"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/CouncilDistricts/FeatureServer/0",
+        "description": "This dataset illustrates the seven City Council Districts for Mecklenburg County, North Carolina. The City Council Districts are geographical areas in the City of Charlotte that serve as areas of interest for the elected members of Charlotte City Council. Each geographical area has a council member elected on the behalf of the citizens of that area.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/37bc3e742e984f329238a3108a950bd7_0/explore",
+        "title": "Charlotte City Council Districts"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Downtown_Wards/FeatureServer/0",
+        "description": "When Charlotte received its colonial charter from Governor William Tryon in 1768, part of the charter he issued required that a town plan be surveyed and adopted. Trade and Tryon streets were laid out as the main streets along existing roads that crossed here, and a grid emanating out from where they met was established as the street and block system for the city.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/bfaac5f959694748a502e3a6027f7e8a_0/explore",
+        "title": "Charlotte Uptown Wards"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/Jurisdictions/FeatureServer/0",
+        "description": "This dataset shows the political jurisdictions for each city and town in Mecklenburg County.",
+        "metadata": "Jurisdictions.html",
+        "pdf": "Mecklenburg County Tax Rates 2022-2023.pdf",
+        "shapefile": "Jurisdictions.zip",
+        "size": "1.21 MB",
+        "source": "Mecklenburg County",
+        "title": "Mecklenburg County Jurisdictions",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/CountyBoundary/FeatureServer/0",
+        "description": "The County boundary of Mecklenburg County, North Carolina.",
+        "metadata": "County_Boundary.html",
+        "shapefile": "MecklenburgCounty_Boundary.zip",
+        "size": "60 KB",
+        "source": "Mecklenburg County",
+        "title": "Mecklenburg County Boundary",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/NCandSCCountyBoundaries/FeatureServer/0",
+        "description": "The County boundaries for all Counties in North and South Carolina.",
+        "metadata": "NCSC_CountyBoundaries.html",
+        "shapefile": "NCSC_CountyBoundaries.zip",
+        "size": "3.98 MB",
+        "source": "Mecklenburg County",
+        "title": "North Carolina/South Carolina County Boundaries",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/NCHouseDistricts/FeatureServer/0",
+        "description": "This dataset contains the <B>CURRENT</B> State House Districts for Mecklenburg County, North Carolina. A state house district is an area bound by a physical feature, voting precinct or a census boundary that is determined by the State of North Carolina.",
+        "metadata": "State_House_Districts.html",
+        "shapefile": "StateHouse_District_Current.zip",
+        "size": "228 MB",
+        "source": "Mecklenburg County",
+        "title": "NC House of Representatives District-Current",
+        "updated": "February 12, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/NCCongressDistricts/FeatureServer/0",
+        "description": "This dataset contains the <B>HISTORICAL</B> State House Districts for Mecklenburg County, North Carolina. A state house district is an area bound by a physical feature, voting precinct or a census boundary that is determined by the State of North Carolina.",
+        "metadata": "State_House_Districts.html",
+        "shapefile": "StateHouse_Districts_Historical.zip",
+        "size": "1.67 MB",
+        "source": "Mecklenburg County",
+        "title": "NC House of Representatives Districts-Historical",
+        "updated": "February 12, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/NCSenateDistricts/FeatureServer/0",
+        "description": "This dataset contains the <B>CURRENT</B> State Senate Districts for Mecklenburg County, North Carolina. A state senate district is an area bound by a physical feature, voting precinct or a census boundary that is determined by the State of North Carolina.",
+        "metadata": "State_Senate_Districts.html",
+        "shapefile": "StateSenate_District_Current.zip",
+        "size": "151 KB",
+        "source": "Mecklenburg County",
+        "title": "NC Senate District-Current",
+        "updated": "February 12, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/NCHouseDistrictsHistorical/FeatureServer/0",
+        "description": "This dataset contains the <B>HISTORICAL</B> State Senate Districts for Mecklenburg County, North Carolina. A state senate district is an area bound by a physical feature, voting precinct or a census boundary that is determined by the State of North Carolina.",
+        "metadata": "State_Senate_Districts.html",
+        "shapefile": "StateSenate_Districts_Historical.zip",
+        "size": "1.20 MB",
+        "source": "Mecklenburg County",
+        "title": "NC Senate Districts-Historical",
+        "updated": "February 12, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/SphereofInfluence/FeatureServer/0",
+        "description": "This dataset shows total County area controlled by each City and Town in Mecklenburg County, North Carolina. This dataset includes Jurisdictions for each City/Town and the unincorporated area.",
+        "metadata": "Sphere_of_Influence.html",
+        "pdf": "Mecklenburg County Tax Rates 2022-2023.pdf",
+        "shapefile": "Sphere_of_Influence.zip",
+        "size": "1.59 MB",
+        "source": "Mecklenburg County",
+        "title": "Sphere of Influence",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/NCSuperiorCourtDistricts/FeatureServer/0",
+        "description": "This dataset shows the Superior Court Districts within Mecklenburg County, North Carolina.",
+        "metadata": "superiorcourt_districts_meck_py.html",
+        "shapefile": "SuperiorCourt_Districts.zip",
+        "size": "930 KB",
+        "source": "Mecklenburg County",
+        "title": "Superior Court Districts",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/NCCongressDistricts/FeatureServer/0",
+        "description": "The dataset represents the <B>CURRENT</B> United States Congressional Districts within Mecklenburg County. The U.S. Congressional Districts are geographical areas used for administrative purposes in the election of North Carolina Representatives to the US Congress.",
+        "metadata": "US_Congress_Districts.html",
+        "shapefile": "NatlCongressional_District_Current.zip",
+        "size": "88.8 KB",
+        "source": "Mecklenburg County",
+        "title": "US Congress District-Current",
+        "updated": "February 12, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/NCCongressDistrictsHistorical/FeatureServer/0",
+        "description": "The dataset represents the <B>HISTORICAL</B> United States Congressional Districts within Mecklenburg County. The U.S. Congressional Districts are geographical areas used for administrative purposes in the election of North Carolina Representatives to the US Congress.",
+        "metadata": "US_Congress_Districts.html",
+        "shapefile": "NatlCongressional_Districts_Historical.zip",
+        "size": "1.69 MB",
+        "source": "Mecklenburg County",
+        "title": "US Congress Districts-Historical",
+        "updated": "February 12, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/VoterPollingLocations/FeatureServer/0",
+        "description": "This dataset contains the polling locations for Mecklenburg County, North Carolina. A polling location is a place where voting occurs during election events. Ideally, less than 3500 registered voters will be assigned to a polling location within a precinct.",
+        "metadata": "Polling_Place_Addresses.html",
+        "shapefile": "Voter_Polling_Location.zip",
+        "size": "16.1 KB",
+        "source": "Mecklenburg County Board of Elections",
+        "title": "Voter Polling Locations",
+        "updated": "February 12, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/VotingPrecincts/FeatureServer/0",
+        "description": "This dataset contains the Voting Precincts for Mecklenburg County, North Carolina. A voting precinct is an area bound by a physical feature or a census boundary. Persons within a precinct are assigned to a polling location based on precinct.",
+        "metadata": "boe_precincts_meck_py.html",
+        "shapefile": "Voter_Precinct.zip",
+        "size": "749 KB",
+        "source": "Mecklenburg County Board of Elections",
+        "title": "Voting Precincts",
+        "updated": "February 12, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/ZipCodeBoundaries/FeatureServer/0",
+        "description": "This dataset contains polygons representing zip code areas in Mecklenburg County, NC.",
+        "metadata": "Zipcodes.html",
+        "shapefile": "Zipcode.zip",
+        "size": "79.4 KB",
+        "source": "Mecklenburg County",
+        "title": "Zip Codes",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/CMSPublicSchool/FeatureServer/0",
+        "description": "Dataset contains points representing Elementary, Middle, and High Schools in Mecklenburg County.",
+        "metadata": "Schools.html",
+        "shapefile": "CMS_Schools.zip",
+        "size": "21.5 KB",
+        "source": "Charlotte-Mecklenburg Schools",
+        "title": "CMS Public Schools",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/CMSSchoolBoardDistricts/FeatureServer/0",
+        "description": "Dataset contains district boundaries representing Charlotte-Mecklenburg School Board in Mecklenburg County.",
+        "metadata": "cms_schoolboard_districts_py.html",
+        "shapefile": "CMS_SchoolBoard_Districts.zip",
+        "size": "1 KB",
+        "source": "Charlotte-Mecklenburg Schools",
+        "title": "CMS School Board Districts",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/CharterSchools/FeatureServer/0",
+        "description": "Dataset contains points representing current Charter schools in Mecklenburg County.",
+        "metadata": "Schools_Charter.html",
+        "shapefile": "Schools_Charter.zip",
+        "size": "11 KB",
+        "source": "State of North Carolina",
+        "title": "Charter Schools in Mecklenburg County",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/PrivateSchools/FeatureServer/0",
+        "description": "Dataset contains Private Schools (Elementary, Middle, High, Religious, Specialty) in Mecklenburg County licensed by the State of North Carolina.",
+        "metadata": "Schools_Private.html",
+        "shapefile": "Schools_Private.zip",
+        "size": "15 KB",
+        "source": "State of North Carolina",
+        "title": "Private Schools in Mecklenburg County",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/CMSElementarySchoolDistricts/FeatureServer/0",
+        "description": "Charlotte-Mecklenburg Elementary School Boundaries for <B>2025-2026</B></P><B>Historical data is available at the link below.</B>",
+        "metadata": "SchoolBoundary_Elementary.html",
+        "shapefile": "SchoolBoundary_Elementary.zip",
+        "size": "15.6 MB",
+        "source": "Mecklenburg County",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/Historical%20CMS%20Parcel%20Boundary%20Data/",
+        "title": "CMS Current Elementary School Boundary",
+        "updated": "February 09, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/CMSMiddleSchoolDistricts/FeatureServer/0",
+        "description": "Charlotte-Mecklenburg Middle School Boundaries for <B>2025-2026</B></P><B>Historical data is available at the link below.</B>",
+        "metadata": "SchoolBoundary_Middle.html",
+        "shapefile": "SchoolBoundary_Middle.zip",
+        "size": "15.5 MB",
+        "source": "Mecklenburg County",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/Historical%20CMS%20Parcel%20Boundary%20Data/",
+        "title": "CMS Current Middle School Boundary",
+        "updated": "February 09, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/CMSHighSchoolDistricts/FeatureServer/0",
+        "description": "Charlotte-Mecklenburg High School Boundaries for <B>2025-2026</B></P><B>Historical data is available at the link below.</B>",
+        "metadata": "SchoolBoundary_High.html",
+        "shapefile": "SchoolBoundary_High.zip",
+        "size": "15.4 MB",
+        "source": "Mecklenburg County",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/Historical%20CMS%20Parcel%20Boundary%20Data/",
+        "title": "CMS Current High School Boundary",
+        "updated": "February 09, 2026"
+    },
+    {
+        "description": "Charlotte-Mecklenburg Elementary School Boundaries for <B>2026-2027</B>.",
+        "metadata": "SchoolBoundary_Elementary.html",
+        "shapefile": "Elem_Boundary_Future.zip",
+        "size": "15.6 MB",
+        "source": "Mecklenburg County",
+        "title": "CMS Future Elementary School Boundary",
+        "updated": "February 09, 2026"
+    },
+    {
+        "description": "Charlotte-Mecklenburg Middle School Boundaries for <B>2026-2027</B>.",
+        "metadata": "SchoolBoundary_Middle.html",
+        "shapefile": "Midd_Boundary_Future.zip",
+        "size": "15.5 MB",
+        "source": "Mecklenburg County",
+        "title": "CMS Future Middle School Boundary",
+        "updated": "February 09, 2026"
+    },
+    {
+        "description": "Charlotte-Mecklenburg High School Boundaries for <B>2026-2027</B>.",
+        "metadata": "SchoolBoundary_High.html",
+        "shapefile": "High_Boundary_Future.zip",
+        "size": "15.4 MB",
+        "source": "Mecklenburg County",
+        "title": "CMS Future High School Boundary",
+        "updated": "February 09, 2026"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/City_Open_Space/FeatureServer/0",
+        "description": "This data represents areas that are classified as open space and located along the Urban Arboretum Trail.",
+        "source": "City of Charlotte",
+        "title": "City Open Space"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Urban_Arboretum_Trail_Route/FeatureServer/0",
+        "description": "This data represents the route that the Urban Arboretum Trail follows along the City of Charlotte's Third Ward.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/87db60aa10154883a3307b32040e4a51_0/explore",
+        "title": "Urban Arboretum Trail Route"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/CATS_Park_and_Ride_Lots/FeatureServer/0",
+        "description": "This dataset contains Park and Ride Lots for Charlotte Area Transit System (CATS) in Mecklenburg County and neighboring communities.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/402f89fa08034e759325301b9ae23fdb_0/explore",
+        "title": "CATS Park and Ride Lots"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Bus_Stops/FeatureServer/0",
+        "description": "This dataset contains Charlotte Area Transit System (CATS) Bus Stops for Mecklenburg County and neighboring communities. Ridership and frequency are weekday only and are calculated following each service change after the first full month. Bus stop locations are updated in real time. These data are a snapshot based on when the Housing Locational Tool is updated.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/757ac30f21fb4f128e4a724ba932ea0e_16/explore",
+        "title": "CATS Bus Stops"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Bus_Routes/FeatureServer/0",
+        "description": "This dataset contains Charlotte Area Transit System (CATS) Routes for Mecklenburg County and neighboring communities.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/206537cea1db4f95a26fb79db75725a5_0/explore",
+        "title": "CATS Bus Routes"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/LYNX_Blue_Line_Stations/FeatureServer/0",
+        "description": "This dataset contains current Lynx Blueline stations for Charlotte Area Transit System (CATS) in Mecklenburg County.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/7824c64dbdd4464d83f26cf4f5e42f11_0/explore",
+        "title": "CATS Lynx Blueline Stations"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/LYNX_Blue_Line_Route/FeatureServer/0",
+        "description": "This dataset contains current Lynx Blueline track alignment from UNC Charlotte to I-485 in South Charlotte, for Charlotte Area Transit System (CATS) in Mecklenburg County.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/ba37d75c37034c53abeb5f4cbc502e63_0/explore",
+        "title": "CATS Lynx Blueline Track"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/LYNX_Red_Line_Stations_Proposed/FeatureServer/0",
+        "description": "This dataset contains proposed Lynx Redline stations for Charlotte Area Transit System (CATS) commuter rail in Mecklenburg County.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/758b652ea9434607a4a15b7fc13f6f4b_0/explore",
+        "title": "CATS Lynx Redline Stations"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/LYNX_Red_Line_Route___Proposed/FeatureServer/0",
+        "description": "This dataset contains the proposed Lynx Redline track alignment for Charlotte Area Transit System (CATS) commuter rail in Mecklenburg County.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/ee61bbad98544819a1306a5a63ff4222_0/explore",
+        "title": "CATS Lynx Redline Track"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/LYNX_Silver_Line_Stations___Proposed/FeatureServer/0",
+        "description": "This dataset contains proposed Lynx Silverline stations for Charlotte Area Transit System (CATS) from Union County, NC to Gaston County, NC.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/6bbc1527656b44c9b1b4836b3d54513b_0/explore",
+        "title": "CATS Lynx Silverline Stations"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/LYNX_Silver_Line_Route___Proposed/FeatureServer/0",
+        "description": "This dataset contains proposed Lynx Silverline track alignment for Charlotte Area Transit System (CATS) from Union County, NC to Gaston County, NC.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/ddc813b30c9c4f9e834338ec1d31adb3_0/explore",
+        "title": "CATS Lynx Silverline Track"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/LYNX_Gold_Line_Stops/FeatureServer/0",
+        "description": "This dataset contains Lynx Goldline stations for Charlotte Area Transit System (CATS) in Mecklenburg County.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/df51b046bb5442ff9a1e1d45bbcd6737_0/explore",
+        "title": "CATS Lynx Goldline Stations"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/LYNX_Gold_Line_Route/FeatureServer/0",
+        "description": "This dataset contains Lynx Goldline track alignment for Charlotte Area Transit System (CATS) in Mecklenburg County.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/ba06e34952194815b7bf3f984180a45f_0/explore",
+        "title": "CATS Lynx Goldline Track"
+    },
+    {
+        "ags": "https://gis.charlottenc.gov/arcgis/rest/services/CDOT/StreetMaintenanceResponsibility/MapServer/0",
+        "description": "Used to identify city and state maintained streets within the City of Charlotte. Annually, the State Street-Aid Program (Powell Bill) allocates monies to incorporated municipalities who maintains their own streets (GS 136-41.1 thru 136-41.3). Funding for this program comes from a 1-3/4 cent tax per gallon of motor fuel. The amount distributed to each municipality is a factor of population and mileage of publicly maintained streets. Allocations are usually disbursed on or before October 1. Powell Bill funds shall be expended only for the purposes of maintaining, repairing, constructing, reconstructing or widening of local streets that are the responsibility of the municipality.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/a51ca7afd5b74cb49e3145926a7133b4_0/explore",
+        "title": "Street Maintenance Responsibility"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Storm_Water_Conservation_Easements/FeatureServer/0",
+        "description": "An easement is a right of use by one party over the property of another party, sometimes for a specific purpose. For Storm Water, easements are property interests which document the conditions under which Storm Water has permission to enter an easement area on private property to repair drainage issues and/or perform on-going maintenance. A storm drainage easement is a recorded, legal document which describes easement boundaries and any conditions and restrictions related to the permission granted by the property owner to Storm Water. Under the easement, the property owner is the grantor and the City (or other applicable municipality through Charlotte-Mecklenburg Storm Water) is the grantee. This represents a location where there is a Storm Water Services Easement. This may not be inclusive of all easements. Please consult Land Records to perform research.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/16c6f5c77f7145c0b230cfb0457e10b8_0/explore",
+        "title": "Storm Water Easements "
+    },
+    {
+        "ags": "https://gis.charlottenc.gov/arcgis/rest/services/STM/StormStructures/FeatureServer/0",
+        "description": "Storm structures within the City of Charlotte limits",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/ec198bfcc28141f08fa610dfd6be784b_0/explore",
+        "title": "Storm Water Structures "
+    },
+    {
+        "ags": "https://gis.charlottenc.gov/arcgis/rest/services/STM/StormChannels/MapServer/0",
+        "description": "Represent open storm drainage systems including creeks, channels, roadside ditches within the city of Charlotte limits",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/407ffc98e34a40619b6793203b5d1ab7_0/explore",
+        "title": "Storm Water Channels"
+    },
+    {
+        "ags": "https://gis.charlottenc.gov/arcgis/rest/services/STM/StormPipes/MapServer/0",
+        "description": "Represent storm pipes within the City of Charlotte limits",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/c88595b15dea43c3836b4f3ab23c7873_0/explore",
+        "title": "Storm Water Pipes"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/StreetIntersection/FeatureServer/0",
+        "description": "Data layer is a depiction of each intersection in Mecklenburg County. As each street intersects there is an intersection point.",
+        "metadata": "Meck_Intersections.html",
+        "shapefile": "Street_Intersections.zip",
+        "size": "3.52 MB",
+        "source": "Mecklenburg County",
+        "title": "Street Intersections",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/Interstates/FeatureServer/0",
+        "description": "Dataset contains developed interstate highway polylines within Mecklenburg County.",
+        "metadata": "Interstate_NCUS_Highways_Meck.html",
+        "shapefile": "Interstate_Meck.zip",
+        "size": "383 KB",
+        "source": "Mecklenburg County",
+        "title": "Interstates",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/InterstatesOutsideMecklenburg/FeatureServer/0",
+        "description": "Dataset contains developed interstate highway polylines within counties adjacent to and surrounding Mecklenburg County.",
+        "metadata": "Interstate_Outside_Meck.html",
+        "shapefile": "Interstate_Outside_Meck.zip",
+        "size": "21 KB",
+        "source": "Mecklenburg County",
+        "title": "Interstates outside Mecklenburg County",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/NCandUSHighways/FeatureServer/0",
+        "description": "Dataset contains developed NC and US highway polylines within Mecklenburg County.",
+        "metadata": "Interstate_NCUS_Highways_Meck.html",
+        "shapefile": "NCUS_Highways_Meck.zip",
+        "size": "340 KB",
+        "source": "Mecklenburg County",
+        "title": "NC/US Highways",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/NCandUSHighwaysOutsideMecklenburg/FeatureServer/0",
+        "description": "Dataset contains developed NC and US highway polylines within counties adjecent to and surrounding Mecklenburg County.",
+        "metadata": "NCUS_Highways_Outside_Meck.html",
+        "shapefile": "NCUS_Highways_Outside_Meck.zip",
+        "size": "341 KB",
+        "source": "Mecklenburg County",
+        "title": "NC/US Highways outside Mecklenburg County",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Parking_Meters/FeatureServer/0",
+        "description": "This dataset contains Parking Meters for Uptown Charlotte, Elizabeth Neighborhood, and South End in Mecklenburg County.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/d5574a8ac9e1494d9f95289deb07f021_0/explore",
+        "title": "Parking Meters"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Speed_Humps/FeatureServer/0",
+        "description": "This dataset contains Speed Humps for City of Charlotte. Point locations of road hump traffic calming devices to show the location of speed humps for inventory and maintenance analysis in Mecklenburg County, North Carolina.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/eb36c48fb705499dbeac9095ac7e330c_0/explore",
+        "title": "Speed Humps"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/StreetCenterline/FeatureServer/0",
+        "description": "This dataset contains the street centerlines for all streets, major roads and highways for Mecklenburg County, North Carolina.",
+        "metadata": "Street_Centerline.html",
+        "shapefile": "Streets.zip",
+        "size": "11.5 MB",
+        "source": "Mecklenburg County",
+        "title": "Street Centerline",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/Thoroughfares/FeatureServer/0",
+        "description": "This dataset contains the street centerlines for all major roads in Mecklenburg County, North Carolina.",
+        "metadata": "Thoroughfare_Meck.html",
+        "shapefile": "ThoroughFare_Meck.zip",
+        "size": "1.58 MB",
+        "source": "Mecklenburg County",
+        "title": "Thoroughfare",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Transportation_Analysis_Zones__TAZ_/FeatureServer/0",
+        "description": "Transportation Analysis Zones for the eleven County metrolina region.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/1779a4cabb764fc09deca97d281b24d7_0/explore",
+        "title": "Transportation Analysis Zones"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/RailroadRightofWay/FeatureServer/0",
+        "description": "The dataset contains the railroad right-of-ways for the county digitized from data compiled from county manual tax maps onto planimetric maps. The name of the railroad company owning the right-of-way is part of the dataset.",
+        "metadata": "Railroad_Right-of-Ways.html",
+        "shapefile": "Railroad_ROW.zip",
+        "size": "133 KB",
+        "source": "Mecklenburg County",
+        "title": "Railroad Right-Of-Way",
+        "updated": "February 12, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/Railroads/FeatureServer/0",
+        "description": "This dataset contains all the rail lines in the county and is based on the county's street centerline file. The county in description is Mecklenburg County, North Carolina.",
+        "metadata": "Railroads.html",
+        "shapefile": "Railroads.zip",
+        "size": "198 KB",
+        "source": "Mecklenburg County",
+        "title": "Railroads",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/UtilityRightofWay/FeatureServer/0",
+        "description": "The dataset contains the utility right-of-ways in Mecklenburg County, North Carolina. Data is digitized from  manual tax maps and planimetric maps. The name of the utility company owning the right-of-way is part of the dataset.",
+        "metadata": "Utility_Right-of-Ways.html",
+        "shapefile": "UtilityROW.zip",
+        "size": "137 KB",
+        "source": "Mecklenburg County",
+        "title": "Utility Right-of-Ways",
+        "updated": "February 12, 2026"
+    },
+    {
+        "ags": "https://gis.charlottenc.gov/arcgis/rest/services/PLN/Zoning/MapServer/0",
+        "description": "This dataset shows zoning designations for the City of Charlotte and its planning area in Mecklenburg County, North Carolina. The PDF document contains zoning descriptions.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/charlotte::zoning-1/explore?location=35.246446%2C-80.753214%2C9.88",
+        "title": "City of Charlotte Zoning"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/UnincorporatedCountyandTownsZoning/FeatureServer/0",
+        "description": "This dataset shows zoning designations for the Towns of Cornelius, Davidson, Huntersville, Matthews, Mint Hill, and Pineville in Mecklenburg County, North Carolina excluding the city of Charlotte and its planning area. The PDF document contains zoning descriptions.",
+        "metadata": "Zoning_Towns.html",
+        "pdf": "ZoningDesignations_Final.pdf",
+        "shapefile": "Zoning_County_Towns.zip",
+        "size": "1.06 MB",
+        "source": "Mecklenburg County",
+        "title": "Unincorporated County & Towns Zoning",
+        "updated": "February 12, 2026"
+    },
+    {
+        "description": "This dataset contains all parcels in Mecklenburg County with zoning designation, municipality, and zipcode attached. The PDF document contains zoning descriptions. </P><B>FOR NON-GIS SOFTWARE USERS WHO WANT TO VIEW THIS DATA IN EXCEL:</B> Unzip File to local hard drive folder, Launch Excel, Click the File tab and select Open. Click the Files of Type drop-down list; by default it reads, All Excel Files. Select dBase Files or All Files. Use the file browser to locate the dBase(*.dbf) format file you want to open. Lastly, Save the loaded dbf file as an Excel Workbook.",
+        "metadata": "parcelzoningzipcode.html",
+        "pdf": "ZoningDesignations_Final.pdf",
+        "shapefile": "ParcelZoningZipcode.zip",
+        "size": "59.3 MB",
+        "source": "Mecklenburg County",
+        "title": "Parcels with zoning and zipcode",
+        "updated": "February 12, 2026"
+    },
+    {
+        "description": "Parcel land use provides a parcel-level digital representation of the existing land use for all parcels.</P>Parcels with a conservation and/or farming land use code are queried as a subset annually. </P><B>Historical data is available at the link below.</B></P><B>FOR NON-GIS SOFTWARE USERS WHO WANT TO VIEW DATA IN EXCEL:</B> Unzip File to local hard drive folder, Launch Excel, Click the File tab and select Open. Click the Files of Type drop-down list; by default it reads, All Excel Files. Select dBase Files or All Files. Use the file browser to locate the dBase(*.dbf) format file you want to open. Lastly, Save the loaded dbf file as an Excel Workbook.",
+        "metadata": "Parcel_LandUse.html",
+        "pdf": "Parcel_LandUseCodes.pdf",
+        "shapefile": "Parcel_LandUse.zip",
+        "size": "59.7 MB",
+        "source": "Mecklenburg County",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/Historical%20Landuse/",
+        "title": "Tax Parcel Landuse Existing",
+        "updated": "February 12, 2026"
+    },
+    {
+        "description": "Mortgage information from Mecklenburg County Tax Assessors Office.",
+        "source": "Mecklenburg County",
+        "theURL": "https://mecklenburgcounty.hosted-by-files.com/OpenMapping/Mortgage%20Bill%20Information/",
+        "title": "Tax Assessor Mortgage Data"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Community_Planning_Areas/FeatureServer/0",
+        "description": "Community planning areas are 15 boundaries for the City of Charlotte planning jurisdiction.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/c0f2649bccac4a9c9fc27e515887eb69_0/explore",
+        "title": "Community Planning Areas"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/Daycares/FeatureServer/0",
+        "description": "Dataset provides NC DHHS licensed daycare locations in Mecklenburg County.",
+        "metadata": "Daycare.html",
+        "shapefile": "Daycare.zip",
+        "size": "137 KB",
+        "source": "NC DHHS",
+        "title": "Daycare",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/SolidWasteFacility/FeatureServer/0",
+        "description": "Dataset provides locations for Mecklenburg County operated solid waste facilities. Locations are self-service or staffed.",
+        "metadata": "SolidWaste_Facilities.html",
+        "shapefile": "Solidwaste_Facility.zip",
+        "size": "5 KB",
+        "source": "Mecklenburg County",
+        "title": "Solid Waste Facility",
+        "updated": "February 13, 2026"
+    },
+    {
+        "ags": "https://services.arcgis.com/9Nl857LBlQVyzq54/ArcGIS/rest/services/Solid_Waste_Collection/FeatureServer/0",
+        "description": "Dataset displays solid waste collection zones for the City of Charlotte.",
+        "source": "City of Charlotte",
+        "theURL": "https://data.charlottenc.gov/datasets/511196d07743406983cfe2bb0cd07e57_0/explore",
+        "title": "Solid Waste Collection Zones"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/Landfills/FeatureServer/0",
+        "description": "Dataset provides locations for Landfills (open and closed) in Mecklenburg County.",
+        "metadata": "Landfills.html",
+        "shapefile": "Landfills.zip",
+        "size": "126 KB",
+        "source": "Mecklenburg County",
+        "title": "Landfills",
+        "updated": "February 10, 2026"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/NCDOTTrafficEstimates/FeatureServer/0",
+        "description": "The AADT shapefile is a station point shapefile of Annual Average Daily Traffic (AADT) estimates. This data includes the data submitted to FHWA for Highway Performance Monitoring System (HPMS) AADT data. Data is reported for AADT on all highways with a Functional Classification (FC) above Local. Data in the file includes all of Mecklenburg County.",
+        "metadata": "NCDOT_2024_AADT_Stations_Description.pdf",
+        "shapefile": "NCDOT_TrafficEstimates.zip",
+        "size": "171 KB",
+        "source": "NCDOT Traffic Survey Group",
+        "title": "NCDOT Traffic Estimates",
+        "updated": "February 13, 2026"
+    },
+    {
+        "description": "The neighborhood character, economics, education, engagement, environment, health, housing, safety and transportation data used by the Quality of Life Explorer.",
+        "theURL": "https://maps.mecklenburgcountync.gov/qol/downloads/qol-data.zip",
+        "title": "Quality of Life"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/DiscGolfCourseBaskets/FeatureServer/0",
+        "description": "This dataset contains baskets associated with all, currently active, disc golf courses in Mecklenburg County.",
+        "metadata": "discgolf_baskets_pt.html",
+        "shapefile": "Discgolf_Baskets.zip",
+        "size": "24 KB",
+        "source": "Mecklenburg County",
+        "title": "Disc Golf Course Baskets",
+        "updated": "April 20, 2020"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/DiscGolfCourseTees/FeatureServer/0",
+        "description": "This dataset contains tees associated with all, currently active, disc golf courses in Mecklenburg County.",
+        "metadata": "discgolf_tees_pt.html",
+        "shapefile": "Discgolf_Tees.zip",
+        "size": "29 KB",
+        "source": "Mecklenburg County",
+        "title": "Disc Golf Course Tees",
+        "updated": "April 20, 2020"
+    },
+    {
+        "ags": "https://meckgis.mecklenburgcountync.gov/server/rest/services/DiscGolfCourseFairways/FeatureServer/0",
+        "description": "This dataset contains fairways associated with all, currently active, disc golf courses in Mecklenburg County.",
+        "metadata": "discgolf_fairway_ln.html",
+        "shapefile": "Discgolf_Fairway.zip",
+        "size": "73 KB",
+        "source": "Mecklenburg County",
+        "title": "Disc Golf Course Fairway",
+        "updated": "April 20, 2020"
+    },
+    {
+        "description": "This dataset contains parcels in Mecklenburg County that are identified as undeveloped land or vacant land. Meaning land that does not currently have a commercial or residential structure built upon it. </P><B>FOR NON-GIS SOFTWARE USERS WHO WANT TO VIEW DATA IN EXCEL:</B> Unzip File to local hard drive folder, Launch Excel, Click the File tab and select Open. Click the Files of Type drop-down list; by default it reads, All Excel Files. Select dBase Files or All Files. Use the file browser to locate the dBase(*.dbf) format file you want to open. Lastly, Save the loaded dbf file as an Excel Workbook.",
+        "metadata": "Tax_Parcel_Ownership_Data.html",
+        "shapefile": "VacantParcels.zip",
+        "size": "3.87 MB",
+        "source": "Mecklenburg County",
+        "title": "Vacant Parcels",
+        "updated": "February 10, 2026"
+    }
+]
