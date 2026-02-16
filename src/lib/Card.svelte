@@ -257,6 +257,22 @@
         >
       {/if}
 
+      <!-- GeoPackage -->
+      {#if record.gpkg}
+        <a
+          href="https://maps.mecklenburgcountync.gov/opendata/{record.gpkg}"
+          on:click={() => sendEvent(record.title, "gpkg")}
+          class="btn"
+          target="_blank"
+          title="GeoPackage"
+        >
+          
+          <svg width="32" height="32" viewBox="0 0 24.00 24.00" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" stroke="#ffffff" stroke-width="0.00024000000000000003" transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.144"></g><g id="SVGRepo_iconCarrier"> <polygon points="20.39 18.24 20.39 8 11.52 2.89 11.52 7.55 16.37 10.32 16.35 15.91 20.39 18.24" style="fill:#ffffff"></polygon> <polygon points="14.79 19.86 14.79 11.23 7.33 6.92 7.33 10.94 11.34 13.23 11.32 17.85 14.79 19.86" style="fill:#ffffff"></polygon> <polygon points="9.76 21.15 9.76 14.14 3.69 10.64 3.69 14 6.86 15.81 6.84 19.47 9.76 21.15" style="fill:#ffffff"></polygon> </g></svg>
+          GPKG</a
+        >
+      {/if}
+
+
       <!-- Shapefile -->
       {#if record.shapefile}
         <a
