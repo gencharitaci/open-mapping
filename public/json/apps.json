@@ -5,7 +5,7 @@
     "thumbnail": "opendata-viewer.webp",
     "github": "https://github.com/gencharitaci/opendata-viewer",
     "github_thumbnail": "github_opendata-viewer.webp",
-    "theURL": "https://gis.mecklenburgcountync.gov/opendata-viewer"
+    "theURL": "https://maps.mecklenburgcountync.gov/opendata-viewer"
   },
   {
     "description": "Aerial viewer built using Leaflet, Svelte, and TailwindCSS.",
